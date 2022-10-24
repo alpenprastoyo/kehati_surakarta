@@ -1,17 +1,5 @@
 @extends('template/main')
 
-@section('title')
-<div class="page-title-box">
-    <div class="container-fluid">
-         <div class="row align-items-center">
-             <div class="col-md-8">
-                 <h6 class="page-title">Home</h6>
-             </div>
-         </div>
-    </div>
- </div>
-@endsection
-
 @section('pages')
 <div class="page-content">
     <div class="container-fluid">                        
@@ -221,7 +209,7 @@
                                         <li class="message-list-item">
                                             <a href="#" class="text-dark">
                                                 <div class="d-flex">
-                                                    <img class="me-3 avatar-sm rounded-circle" src="{{ asset('foxia/assets/images/users/avatar-2.jpg')  }}" alt="">
+                                                    <img class="me-3 avatar-sm rounded-circle" src="{{ asset('foxia/assets/images/users/avatar-2.jpg')}}" alt="">
                                                     <div class="">
                                                         <h6 class="mt-0">Michael Bowen</h6>
                                                         <p class="text-muted mb-0">Hey! there I'm available...</p>
@@ -233,7 +221,7 @@
                                         <li class="message-list-item">
                                             <a href="#" class="text-dark">
                                                 <div class="d-flex">
-                                                    <img class="me-3 avatar-sm rounded-circle" src="{{ asset('foxia/assets/images/users/avatar-3.jpg')  }}" alt="">
+                                                    <img class="me-3 avatar-sm rounded-circle" src="{{ asset('foxia/assets/images/users/avatar-3.jpg')}}" alt="">
                                                     <div class="">
                                                         <h6 class="mt-0">Danny Benson</h6>
                                                         <p class="text-muted mb-0">I've finished it! See you so...</p>
@@ -245,7 +233,7 @@
                                         <li class="message-list-item">
                                             <a href="#" class="text-dark">
                                                 <div class="d-flex">
-                                                    <img class="me-3 avatar-sm rounded-circle" src="{{ asset('foxia/assets/images/users/avatar-4.jpg')  }}" alt="">
+                                                    <img class="me-3 avatar-sm rounded-circle" src="{{ asset('foxia/assets/images/users/avatar-4.jpg')}}" alt="">
                                                     <div class="">
                                                         <h6 class="mt-0">Brady Smith</h6>
                                                         <p class="text-muted mb-0">This theme is awesome!</p>
@@ -257,7 +245,7 @@
                                         <li class="message-list-item">
                                             <a href="#" class="text-dark">
                                                 <div class="d-flex">
-                                                    <img class="me-3 avatar-sm rounded-circle" src="{{ asset('foxia/assets/images/users/avatar-5.jpg')  }}" alt="">
+                                                    <img class="me-3 avatar-sm rounded-circle" src="{{ asset('foxia/assets/images/users/avatar-5.jpg')}}" alt="">
                                                     <div class="">
                                                         <h6 class="mt-0">Danny Benson</h6>
                                                         <p class="text-muted mb-0">Nice to meet you</p>
@@ -275,7 +263,7 @@
                                         <li class="message-list-item">
                                             <a href="#" class="text-dark">
                                                 <div class="d-flex">
-                                                    <img class="me-3 avatar-sm rounded-circle" src="{{ asset('foxia/assets/images/users/avatar-5.jpg')  }}" alt="">
+                                                    <img class="me-3 avatar-sm rounded-circle" src="{{ asset('foxia/assets/images/users/avatar-5.jpg')}}" alt="">
                                                     <div class="">
                                                         <h6 class="mt-0">Albert Jones</h6>
                                                         <p class="text-muted mb-0">Hey! there I'm available...</p>
@@ -287,7 +275,7 @@
                                         <li class="message-list-item">
                                             <a href="#" class="text-dark">
                                                 <div class="d-flex">
-                                                    <img class="me-3 avatar-sm rounded-circle" src="{{ asset('foxia/assets/images/users/avatar-6.jpg')  }}" alt="">
+                                                    <img class="me-3 avatar-sm rounded-circle" src="{{ asset('foxia/assets/images/users/avatar-6.jpg')}}" alt="">
                                                     <div class="">
                                                         <h6 class="mt-0">Danny Benson</h6>
                                                         <p class="text-muted mb-0">I've finished it! See you so...</p>
@@ -299,7 +287,7 @@
                                         <li class="message-list-item">
                                             <a href="#" class="text-dark">
                                                 <div class="d-flex">
-                                                    <img class="me-3 avatar-sm rounded-circle" src="{{ asset('foxia/assets/images/users/avatar-7.jpg')  }}" alt="">
+                                                    <img class="me-3 avatar-sm rounded-circle" src="{{ asset('foxia/assets/images/users/avatar-7.jpg')}}" alt="">
                                                     <div class="">
                                                         <h6 class="mt-0">Joseph Sanchez</h6>
                                                         <p class="text-muted mb-0">This theme is awesome!</p>
@@ -311,7 +299,7 @@
                                         <li class="message-list-item">
                                             <a href="#" class="text-dark">
                                                 <div class="d-flex">
-                                                    <img class="me-3 avatar-sm rounded-circle" src="{{ asset('foxia/assets/images/users/avatar-5.jpg')  }}" alt="">
+                                                    <img class="me-3 avatar-sm rounded-circle" src="{{ asset('foxia/assets/images/users/avatar-5.jpg')}}" alt="">
                                                     <div class="">
                                                         <h6 class="mt-0">Daniel Anderson</h6>
                                                         <p class="text-muted mb-0">Nice to meet you</p>
@@ -424,7 +412,7 @@
                                         <th scope="row">#16252</th>
                                         <td>
                                             <div>
-                                                <img src="{{ asset('foxia/assets/images/users/avatar-2.jpg')  }}" alt="" class="avatar-xs rounded-circle me-2"> Rafael Reardon
+                                                <img src="{{ asset('foxia/assets/images/users/avatar-2.jpg')}}" alt="" class="avatar-xs rounded-circle me-2"> Rafael Reardon
                                             </div>
                                         </td>
                                         <td>14/10/2018</td>
@@ -442,7 +430,7 @@
                                         <th scope="row">#16253</th>
                                         <td>
                                             <div>
-                                                <img src="{{ asset('foxia/assets/images/users/avatar-3.jpg')  }}" alt="" class="avatar-xs rounded-circle me-2"> Thomas Hirsch
+                                                <img src="{{ asset('foxia/assets/images/users/avatar-3.jpg')}}" alt="" class="avatar-xs rounded-circle me-2"> Thomas Hirsch
                                             </div>
                                         </td>
                                         <td>15/10/2018</td>
@@ -460,7 +448,7 @@
                                         <th scope="row">#16254</th>
                                         <td>
                                             <div>
-                                                <img src="{{ asset('foxia/assets/images/users/avatar-4.jpg')  }}" alt="" class="avatar-xs rounded-circle me-2"> Archer Desaillly
+                                                <img src="{{ asset('foxia/assets/images/users/avatar-4.jpg')}}" alt="" class="avatar-xs rounded-circle me-2"> Archer Desaillly
                                             </div>
                                         </td>
                                         <td>15/10/2018</td>
@@ -478,7 +466,7 @@
                                         <th scope="row">#16255</th>
                                         <td>
                                             <div>
-                                                <img src="{{ asset('foxia/assets/images/users/avatar-5.jpg')  }}" alt="" class="avatar-xs rounded-circle me-2"> Michael Flannery
+                                                <img src="{{ asset('foxia/assets/images/users/avatar-5.jpg')}}" alt="" class="avatar-xs rounded-circle me-2"> Michael Flannery
                                             </div>
                                         </td>
                                         <td>16/10/2018</td>
@@ -496,7 +484,7 @@
                                         <th scope="row">#16256</th>
                                         <td>
                                             <div>
-                                                <img src="{{ asset('foxia/assets/images/users/avatar-6.jpg')  }}" alt="" class="avatar-xs rounded-circle me-2"> Jamie Fishbourne
+                                                <img src="{{ asset('foxia/assets/images/users/avatar-6.jpg')}}" alt="" class="avatar-xs rounded-circle me-2"> Jamie Fishbourne
                                             </div>
                                         </td>
                                         <td>17/10/2018</td>
@@ -522,4 +510,3 @@
     </div>    
 </div>
 @endsection
-
