@@ -5,7 +5,7 @@
     <div class="container-fluid">
          <div class="row align-items-center">
              <div class="col-md-8">
-                 <h6 class="page-title">Home</h6>
+                 <h6 class="page-title">RTH</h6>
              </div>
          </div>
     </div>
@@ -21,7 +21,7 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-body">
-                        <p class="mb-0">This is Home Page</p>
+                        <p class="mb-0">This is RTH</p>
                     </div>
                 </div>
             </div>
