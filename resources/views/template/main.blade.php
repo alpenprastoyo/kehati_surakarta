@@ -2,7 +2,7 @@
 <html lang="en">
 
     <head>
-    
+
         <meta charset="utf-8">
         <title>Horizontal Boxed Layout | Foxia - Responsive Bootstrap 5 Admin Dashboard</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +10,16 @@
         <meta content="Themesbrand" name="author">
         <!-- App favicon -->
         <link rel="shortcut icon" href="{{ asset('foxia/assets/images/favicon.ico') }}">
-    
+
         <!-- Bootstrap Css -->
         <link href="{{ asset('foxia/assets/css/bootstrap.min.css')  }}" id="bootstrap-style" rel="stylesheet" type="text/css">
         <!-- Icons Css -->
         <link href="{{ asset('foxia/assets/css/icons.min.css')  }}" rel="stylesheet" type="text/css">
         <!-- App Css-->
         <link href="{{ asset('foxia/assets/css/app.min.css')  }}" id="app-style" rel="stylesheet" type="text/css">
-    
+
+        @yield('css')
+
     </head>
 
     <body data-topbar="colored" data-layout="horizontal">
@@ -29,12 +31,12 @@
         <div id="layout-wrapper">
 
             <header id="page-topbar">
-             @include('template/header')   
+             @include('template/header')
 
-             @include('template/sidebar')   
+             @include('template/sidebar')
 
              @yield('title')
-    
+
 
             </header>
 
@@ -43,12 +45,12 @@
             <!-- ============================================================== -->
             <div class="main-content">
 
-            @yield('pages')    
+            @yield('pages')
                 <!-- End Page-content -->
 
-                
-            @include('template/footer')     
-                
+
+            @include('template/footer')
+
             </div>
             <!-- end main content-->
 
@@ -86,7 +88,7 @@
                         <input class="form-check-input theme-choice" type="checkbox" id="dark-mode-switch" data-bsStyle="{{ asset('foxia/assets/css/bootstrap-dark.min.css')  }}" data-appStyle="{{ asset('foxia/assets/css/app-dark.min.css')  }}">
                         <label class="form-check-label" for="dark-mode-switch">Dark Mode</label>
                     </div>
-    
+
                     <div class="mb-2">
                         <img src="{{ asset('foxia/assets/images/layouts/layout-3.jpg')  }}" class="img-fluid img-thumbnail" alt="">
                     </div>
@@ -95,7 +97,7 @@
                         <input class="form-check-input theme-choice" type="checkbox"  id="rtl-mode-switch" data-appStyle="{{ asset('foxia/assets/css/app-rtl.min.css')  }}">
                         <label class="form-check-label" for="rtl-mode-switch">RTL Mode</label>
                     </div>
-            
+
                     <h6 class="mt-4">Select Custom Colors</h6>
 
                     <div class="form-check form-check-inline">
@@ -123,14 +125,14 @@
 
         <!-- Right bar overlay-->
         <div class="rightbar-overlay"></div>
-                             
+
         <!-- JAVASCRIPT -->
         <script src="{{ asset('foxia/assets/libs/jquery/jquery.min.js')  }}"></script>
         <script src="{{ asset('foxia/assets/libs/bootstrap/js/bootstrap.bundle.min.js')  }}"></script>
         <script src="{{ asset('foxia/assets/libs/metismenu/metisMenu.min.js')  }}"></script>
         <script src="{{ asset('foxia/assets/libs/simplebar/simplebar.min.js')  }}"></script>
         <script src="{{ asset('foxia/assets/libs/node-waves/waves.min.js')  }}"></script>
-        
+
         <script src="{{ asset('foxia/assets/libs/morris.js/morris.min.js')  }}"></script>
 
         <script src="{{ asset('foxia/assets/libs/raphael/raphael.min.js')  }}"></script>
@@ -141,6 +143,8 @@
         <script src="{{ asset('foxia/assets/js/pages/dashboard.init.js')  }}"></script>
 
         <script src="{{ asset('foxia/assets/js/app.js')  }}"></script>
+
+        @yield('js')
 
     </body>
 </html>

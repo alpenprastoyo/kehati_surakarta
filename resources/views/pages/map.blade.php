@@ -1,5 +1,15 @@
 @extends('template/main')
 
+@section('css')
+
+@endsection
+
+@section('js')
+
+@endsection
+
+
+
 @section('title')
 <div class="page-title-box">
     <div class="container-fluid">
@@ -16,7 +26,7 @@
 <div class="page-content">
     <div class="container-fluid">
 
-       
+
         <div class="row">
             <div class="col-12">
                 <div class="card">
@@ -27,7 +37,7 @@
             </div>
         </div>
 
-    </div>    
+    </div>
 </div>
 @endsection
 
