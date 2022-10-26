@@ -15,10 +15,10 @@ use App\Http\Controllers\MapController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/map', [MapController::class, 'index'])->name('map');
 Route::get('/rth', [RthController::class, 'index'])->name('rth');
