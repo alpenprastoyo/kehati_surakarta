@@ -14,12 +14,13 @@
             <i class="mdi mdi-menu"></i>
         </button>
 
-        <ul class="list-inline d-none d-lg-block mb-0">
+        <ul style="padding-top: 10px" class="list-inline d-none d-lg-block mb-0">
             <li class="list-inline-item me-3 help-number">
-                <span class="font-size-13 header-item">Help : +012 3456 789</span>
+                <span class="font-size-13 header-item">No HP : +012 3456 789</span>
+                {{-- <span class="font-size-13 header-item">Alamat : Jalan Ir. Sutami 36 Kentingan, Jebres, Surakarta, Jawa Tengah. Indonesia 57126                </span> --}}
             </li>
             <li class="list-inline-item">
-                <div class="dropdown d-none d-lg-block">
+                {{-- <div class="dropdown d-none d-lg-block">
                     <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img class="me-2" src="{{ asset('foxia/assets/images/flags/us_flag.jpg')  }}" alt="Header Language" height="14"> United States <span class="mdi mdi-chevron-down"></span>
                     </button>
@@ -45,7 +46,7 @@
                             <img src="{{ asset('foxia/assets/images/flags/spain_flag.jpg')  }}" alt="user-image" class="me-1" height="12"> <span class="align-middle"> Spanish </span>
                         </a>
                     </div>
-                </div>
+                </div> --}}
             </li>
 
         </ul>
@@ -53,16 +54,16 @@
     </div>
 
     <!-- Search input -->
-    <div class="search-wrap" id="search-wrap">
+    {{-- <div class="search-wrap" id="search-wrap">
         <div class="search-bar">
             <input class="search-input form-control" placeholder="Search">
             <a href="#" class="close-search toggle-search" data-target="#search-wrap">
                 <i class="mdi mdi-close-circle"></i>
             </a>
         </div>
-    </div>
+    </div> --}}
 
-    <div class="d-flex">
+    {{-- <div class="d-flex">
 
         <div class="dropdown d-none d-lg-block">
             <button type="button" class="btn header-item toggle-search noti-icon waves-effect" data-target="#search-wrap">
@@ -196,5 +197,5 @@
             </button>
         </div>
 
-    </div>
+    </div> --}}
 </div>

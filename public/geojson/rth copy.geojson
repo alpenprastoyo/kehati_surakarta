@@ -1,0 +1,762 @@
+{
+    "type": "FeatureCollection",
+    "name": "titik dlh",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::32749"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 1,
+                "Nama": "LAPANGAN KENTENG",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    481524.967400000430644,
+                    9160594.3574
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 2,
+                "Nama": "TPU CEMORO KEMBAR",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    481406.827899999916553,
+                    9160667.965399999171495
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 3,
+                "Nama": "SEMPADAN SUNGAI PELEM WULUNG",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    480540.614299999549985,
+                    9160828.080900000408292
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 4,
+                "Nama": "SEMPADAN SUNGAI BENGAWAN SOLO (SEMANGGI)",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    482432.849100000225008,
+                    9161302.3015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 5,
+                "Nama": "LAPANGAN LOSARI",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    482285.685499999672174,
+                    9161786.257400000467896
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 6,
+                "Nama": "LAPANGAN PRINGGOLAYAN",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    479078.750099999830127,
+                    9161861.79619999974966
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 7,
+                "Nama": "ALUN-ALUN KIDUL",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    480864.411199999973178,
+                    9161905.047900000587106
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 8,
+                "Nama": "MAKAM JALAN VETERAN",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    478807.581600000150502,
+                    9162227.973300000652671
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 9,
+                "Nama": "TAMAN LOTTEMART",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    478838.39780000038445,
+                    9162284.542500000447035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 10,
+                "Nama": "LAPANGAN BOLA JALAN KARTO PURAN",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    479876.059500000439584,
+                    9162681.67710000090301
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 11,
+                "Nama": "ALUN ALUN UTARA",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    481112.136800000444055,
+                    9162702.184800000861287
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 12,
+                "Nama": "JALUR PEJALAN KAKI JALAN ALUN-ALUN UTARA",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    481151.525399999693036,
+                    9162883.696699999272823
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 13,
+                "Nama": "LAPANGAN KARTOPURAN",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    479257.037200000137091,
+                    9162897.639799999073148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 14,
+                "Nama": "TAMAN BENTENG VASTENBURG",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    481478.774000000208616,
+                    9162995.949699999764562
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 15,
+                "Nama": "URBAN FOREST PUCANG SAWIT",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    483305.495199999772012,
+                    9163007.99210000038147
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 16,
+                "Nama": "MAKAM KYAI AGENG HENIS",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    477085.760900000110269,
+                    9163045.142899999395013
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 17,
+                "Nama": "JALUR HIJAU JALAN RONGGOWARSITO (UTARA)",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    481038.5011,
+                    9163225.331700000911951
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 18,
+                "Nama": "MAKAM KRAMAT",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    477012.166899999603629,
+                    9163251.338600000366569
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 19,
+                "Nama": "TAMAN BALAIKOTA",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    481222.214399999938905,
+                    9163289.061799999326468
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 20,
+                "Nama": "STADIUN SRIWEDARI",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    479376.533400000073016,
+                    9163352.240299999713898
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 21,
+                "Nama": "TAMAN TUGU KEBANGKITAN NASIONAL",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    478567.018199999816716,
+                    9163383.451500000432134
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 22,
+                "Nama": "JALUR PEJALAN KAKI JALAN SLAMET RIYADI",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    479709.418999999761581,
+                    9163396.966
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 23,
+                "Nama": "PURA MANGKUNEGARAN",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    480436.960199999623001,
+                    9163609.9463
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 24,
+                "Nama": "SEMPADAN SUNGAI BORO",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    482334.706699999980628,
+                    9163669.868200000375509
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 25,
+                "Nama": "LAPANGAN SRIWARU",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    476956.354000000283122,
+                    9163707.045
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 26,
+                "Nama": "KAWASAN TAMAN JURUG",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    484654.399100000038743,
+                    9163711.160000000149012
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 27,
+                "Nama": "JALAN URIP SUMOHARJO",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    481791.520200000144541,
+                    9163943.8936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 28,
+                "Nama": "KOMPLEKS PPG PGSD PGPAUD UNS",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    476763.225999999791384,
+                    9164121.254899999126792
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 29,
+                "Nama": "TAMAN BERMAIN ANAK JALAN BENGLE",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    476197.844899999909103,
+                    9164131.670299999415874
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 30,
+                "Nama": "TAMAN MONUMEN 45 BANJARSARI",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    480854.041299999691546,
+                    9164288.7807
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 31,
+                "Nama": "JALUR HIJAU JALAN SLAMET RIYADI",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    476710.260400000028312,
+                    9164332.303899999707937
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 32,
+                "Nama": "JALAN SAM RATULANGI",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    478404.996000000275671,
+                    9164335.091
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 33,
+                "Nama": "JL.A.YANI",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    482043.092600000090897,
+                    9164352.371500000357628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 34,
+                "Nama": "TAMAN MONUMEN ACHMADI",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    481055.02280000038445,
+                    9164440.202600000426173
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 35,
+                "Nama": "JALUR PEJALAN KAKI JALAN MONGINSIDI",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    481497.052799999713898,
+                    9164447.740299999713898
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 36,
+                "Nama": "STADIUN UNS + (KOMPLEKS UNS)",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    484215.779500000178814,
+                    9164529.098600000143051
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 37,
+                "Nama": "SEMPADAN SUNGAI PEPE",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    480091.107200000435114,
+                    9164567.128599999472499
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 38,
+                "Nama": "LAPANGAN JAJAR",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    476766.842799999751151,
+                    9164784.141200000420213
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 39,
+                "Nama": "STADIUN MANAHAN + TAMAN SELATAN STADIUN MANAHAN",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    478534.685200000181794,
+                    9164879.660900000482798
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 40,
+                "Nama": "TAMAN SEKARTAJI",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    482845.44550000037998,
+                    9164910.0494
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 41,
+                "Nama": "TAMAN BALEKAMBANG + TAMAN PEMBIBITAN",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    478762.924700000323355,
+                    9165171.7467
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 42,
+                "Nama": "TAMAN TIRTONADI",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    480189.431099999696016,
+                    9165283.248099999502301
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 43,
+                "Nama": "SEMPADAN SUNGAI GAJAH PUTIH",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    478274.9046,
+                    9165330.230000000447035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 44,
+                "Nama": "TAMAN BANTARAN SUNGAI PEPE (BAGIAN UTARA)",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    479873.129200000315905,
+                    9165519.448699999600649
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 45,
+                "Nama": "JL.ADI SUCIPTO",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    475543.621700000017881,
+                    9165787.621200000867248
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 46,
+                "Nama": "MAKAM ASTONOLOYO",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    481702.457299999892712,
+                    9166729.854100000113249
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 47,
+                "Nama": "TPU BONOLOYO",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    480680.868599999696016,
+                    9166816.221899999305606
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 48,
+                "Nama": "TAMAN CERDAS MOJOSONGO",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    482088.283900000154972,
+                    9166868.888699999079108
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 49,
+                "Nama": "TAMAN JAYAWIJAYA",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    482593.863400000147521,
+                    9166872.230499999597669
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 50,
+                "Nama": "KADIPIRO",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    479653.532599999569356,
+                    9167585.719000000506639
+                ]
+            }
+        }
+    ]
+}
