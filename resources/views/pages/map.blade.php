@@ -18,7 +18,6 @@
             </div>
         </div>
     </div>
-
 @endsection
 
 @section('pages')
@@ -26,8 +25,8 @@
         <div class="container-fluid">
 
 
-            <div style="padding-bottom: 20px"  class="row">
-                            <div id="map" class="map map-home" style="height: 600px; margin-top: 50px"></div>
+            <div style="padding-bottom: 20px" class="row">
+                <div id="map" class="map map-home" style="height: 600px; margin-top: 50px"></div>
             </div>
 
         </div>
@@ -66,6 +65,7 @@
             'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
         var mbUrl =
             'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+
         var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -76,25 +76,17 @@
             zoomOffset: -1,
             attribution: mbAttr
         });
-        var satellite = L.tileLayer(mbUrl, {
-            id: 'mapbox/satellite-v8',
-            tileSize: 512,
-            zoomOffset: -1,
-            attribution: mbAttr
+
+        var satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+            maxZoom: 20,
+            subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
         });
-
-        //GET TOPOJSON
-        getGeoData('http://mapgeo.id:8844/peta/topojson_kec').then(data => geojsonkecamatan.addData(data));
-        // getGeoData('http://mapgeo.id:8844/peta/topojson_kec').then(data => geojsonkelurahan.addData(data));
-        // getGeoData('geojson/rth.geojson').then(data => geojsonrthtamanrt.addData(data));
-
-
 
 
         //LOAD MAP
         let map = L.map('map', {
-            center: [-7.5592076, 110.7837925],
-            zoom: 12,
+            center: [-7.5592076, 110.8257925],
+            zoom: 13,
             layers: [satellite]
         });
 
@@ -109,6 +101,7 @@
 
 
         ////////////////////////////Polygon Kecamatan Surakarta
+        getGeoData('http://mapgeo.id:8844/peta/topojson_kec').then(data => geojsonkecamatan.addData(data));
         L.TopoJSON = L.GeoJSON.extend({
             addData: function(data) {
                 var geojsonkecamatan, key;
@@ -140,10 +133,11 @@
                     fillOpacity: 0,
                     dashArray: 3
                 }
-            },
-            onEachFeature: function(feature, layer) {
-                layer.bindPopup('<p>' + feature.properties.kecamatan + '</p>')
             }
+            ,
+            // onEachFeature: function(feature, layer) {
+            //     layer.bindPopup('<p>' + feature.properties.kecamatan + '</p>')
+            // }
         }).addTo(map);
         //fill: #317581;
         //define a function to get and parse geojsonkecamatan from URL
@@ -156,86 +150,88 @@
 
         layerControl.addOverlay(geojsonkecamatan, "Kecamatan");
 
-         //Polygon Kelurahan Surakarta
+        //Polygon Kelurahan Surakarta
         let url_kelurahan = '/geojson/geo_kelurahan_surakarta.geojson';
-        const response_kelurahan = fetch(url_kelurahan).then(response_kelurahan => response_kelurahan.json()).then(response_kelurahan => {
-            var geojsonkelurahan = L.geoJson(response_kelurahan,{
-            style: function(feature) {
-                return {
-                    color: "white",
-                    weight: 3,
-                    opacity: 1,
-                    fillOpacity: 0,
-                    dashArray: 3
-                }
-            }
-        }).addTo(map);
-            layerControl.addOverlay(geojsonkelurahan, "Kelurahan");
-        })
+        const response_kelurahan = fetch(url_kelurahan).then(response_kelurahan => response_kelurahan.json()).then(
+            response_kelurahan => {
+                var geojsonkelurahan = L.geoJson(response_kelurahan, {
+                    style: function(feature) {
+                        return {
+                            color: "white",
+                            weight: 3,
+                            opacity: 1,
+                            fillOpacity: 0,
+                            dashArray: 3
+                        }
+                    }
+                }).addTo(map);
+                layerControl.addOverlay(geojsonkelurahan, "Kelurahan");
+            })
 
         //Polygon RTH Publik Surakarta
         let url_rth_publik = '/geojson/geo_rth_publik.geojson';
-        const response_rth_publik = fetch(url_rth_publik).then(response_rth_publik => response_rth_publik.json()).then(response_rth_publik => {
-            var geojsonrthpublik = L.geoJson(response_rth_publik,{
-            style: function(feature) {
-                return {
-                    color: "green",
-                    weight: 3,
-                    opacity: 1,
-                    fillOpacity: 0.3,
-                }
-            },
-            onEachFeature: function(feature, layer) {
-                layer.bindPopup(
-                    '<div style="text-align: center;"> '+ '<p>' + feature.properties.Nama + '</p>' + '<img style="padding-bottom:10px" src="https://greencampus.uns.ac.id/wp-content/uploads/elementor/thumbs/child-worried-about-the-environment-caresses-a-la-2022-05-04-00-26-52-utc-1-ppreuyrwwje3ekish3me7jeboqxwibhmkmlibyners.jpg" class="rounded float-left img-fluid" >' + '<button type="button" class="btn btn-success">Lihat Detail</button>' + '</div>'
-                )
-            }
-        }).addTo(map);
-            layerControl.addOverlay(geojsonrthpublik, "RTH Publik");
-        })
+        const response_rth_publik = fetch(url_rth_publik).then(response_rth_publik => response_rth_publik.json()).then(
+            response_rth_publik => {
+                var geojsonrthpublik = L.geoJson(response_rth_publik, {
+                    style: function(feature) {
+                        return {
+                            color: "green",
+                            weight: 3,
+                            opacity: 1,
+                            fillOpacity: 0.3,
+                        }
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup(
+                            '<div style="text-align: center;"> ' + '<p>' + feature.properties.Nama +
+                            '</p>' +
+                            '<img style="padding-bottom:10px" src="https://greencampus.uns.ac.id/wp-content/uploads/elementor/thumbs/child-worried-about-the-environment-caresses-a-la-2022-05-04-00-26-52-utc-1-ppreuyrwwje3ekish3me7jeboqxwibhmkmlibyners.jpg" class="rounded float-left img-fluid" >' +
+                            '<button type="button" class="btn btn-success">Lihat Detail</button>' +
+                            '</div>'
+                        )
+                    }
+                }).addTo(map);
+                layerControl.addOverlay(geojsonrthpublik, "RTH Publik");
+            })
 
         //Polygon RTH Privat Surakarta
         let url_rth_privat = '/geojson/geo_rth_privat.geojson';
-        const response_rth_privat = fetch(url_rth_privat).then(response_rth_privat => response_rth_privat.json()).then(response_rth_privat => {
-            var geojsonrthprivat = L.geoJson(response_rth_privat,).addTo(map);
-            layerControl.addOverlay(geojsonrthprivat, "RTH Privat");
-        })
+        const response_rth_privat = fetch(url_rth_privat).then(response_rth_privat => response_rth_privat.json()).then(
+            response_rth_privat => {
+                var geojsonrthprivat = L.geoJson(response_rth_privat, ).addTo(map);
+                layerControl.addOverlay(geojsonrthprivat, "RTH Privat");
+            })
 
         //Polygon Sungai
         let url_sungai = '/geojson/geo_sungai.geojson';
         const response_sungai = fetch(url_sungai).then(response_sungai => response_sungai.json()).then(response_sungai => {
-            var geojsonsungai = L.geoJson(response_sungai,{
-            style: function(feature) {
-                return {
-                    color: "blue",
-                    weight: 3,
-                    opacity: 1,
-                    fillOpacity: 0,
+            var geojsonsungai = L.geoJson(response_sungai, {
+                style: function(feature) {
+                    return {
+                        color: "blue",
+                        weight: 3,
+                        opacity: 1,
+                        fillOpacity: 0,
+                    }
                 }
-            }
-        }).addTo(map);
+            }).addTo(map);
             layerControl.addOverlay(geojsonsungai, "Sungai");
         })
 
         //Polygon Rel
-        let url_rel= '/geojson/geo_rel.geojson';
-        const response_rel= fetch(url_rel).then(response_rel=> response_rel.json()).then(response_rel=> {
-            var geojsonrel= L.geoJson(response_rel,{
-            style: function(feature) {
-                return {
-                    color: "red",
-                    weight: 3,
-                    opacity: 1,
-                    fillOpacity: 0,
+        let url_rel = '/geojson/geo_rel.geojson';
+        const response_rel = fetch(url_rel).then(response_rel => response_rel.json()).then(response_rel => {
+            var geojsonrel = L.geoJson(response_rel, {
+                style: function(feature) {
+                    return {
+                        color: "red",
+                        weight: 3,
+                        opacity: 1,
+                        fillOpacity: 0,
+                    }
                 }
-            }
-        }).addTo(map);
+            }).addTo(map);
             layerControl.addOverlay(geojsonrel, "Rel");
         })
-
-
-
-
-
     </script>
 @endsection
