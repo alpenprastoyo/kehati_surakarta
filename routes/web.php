@@ -21,4 +21,9 @@ Route::get('/', function () {
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/map', [MapController::class, 'index'])->name('map');
-Route::get('/rth', [RthController::class, 'index'])->name('rth');
+Route::get('/rth', [RTHController::class, 'index'])->name('rth');
+Route::get('/ktppohon', [KTPPohonController::class,'index'])->name('ktppohon');
+Route::get('/rthprivat', [RTHPrivatController::class, 'index'])->name('rthprivat');
+Route::get('/rthpublik', [RTHPublikController::class, 'index'])->name('rthpublik');
+Route::get('/rthtotal', [RTHTotalController::class, 'index'])->name('rthtotal');
+Route::get('/kontakkami', [KontakKamiController::class,'index'])->name('kontakkami');

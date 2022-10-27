@@ -29,7 +29,7 @@
                                 <div class="arrow-down"></div>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="topnav-advanced-ui">
-                                <a href="{{ route('home') }}" class="dropdown-item">RTH</a>
+                                <a href="{{ route('rth') }}" class="dropdown-item">RTH</a>
                                 <a href="{{ route('home') }}" class="dropdown-item">KTP Pohon</a>
                             </div>
                         </li>
