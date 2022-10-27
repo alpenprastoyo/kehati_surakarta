@@ -4,7 +4,7 @@
         <div class="navbar-brand-box d-block d-lg-none">
             <a href="index.html" class="logo logo-light">
                 <span class="logo-sm">
-                    <img src="{{ asset('foxia/assets/images/logo-sm.png')  }}" alt="" height="22">
+                    <img src="{{ asset('img/logo/logo-sm.png')  }}" alt="" height="22">
                 </span>
             </a>
         </div>
