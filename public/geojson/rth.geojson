@@ -1,0 +1,27 @@
+{
+    "type": "FeatureCollection",
+    "name": "titik dlh",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::32749"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 1,
+                "Nama": "LAPANGAN KENTENG",
+                "Keterangan": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.8626212,
+                    -7.5561717
+                ]
+            }
+        }
+    ]
+}
