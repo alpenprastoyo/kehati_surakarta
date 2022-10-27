@@ -3,6 +3,14 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MapController;
+use App\Http\Controllers\RTHController;
+use App\Http\Controllers\RTHPrivatController;
+use App\Http\Controllers\RTHPublikController;
+use App\Http\Controllers\RTHTotalController;
+use App\Http\Controllers\KTPPohonController;
+use App\Http\Controllers\KontakKamiController;
+
+
 
 /*
 |--------------------------------------------------------------------------

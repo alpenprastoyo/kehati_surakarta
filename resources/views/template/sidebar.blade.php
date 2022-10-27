@@ -30,7 +30,7 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="topnav-advanced-ui">
                                 <a href="{{ route('rth') }}" class="dropdown-item">RTH</a>
-                                <a href="{{ route('home') }}" class="dropdown-item">KTP Pohon</a>
+                                <a href="{{ route('ktppohon') }}" class="dropdown-item">KTP Pohon</a>
                             </div>
                         </li>
         
@@ -40,9 +40,9 @@
                                 <div class="arrow-down"></div>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="topnav-advanced-ui">
-                                <a href="{{ route('rth') }}" class="dropdown-item">RTH Total</a>
-                                <a href="{{ route('home') }}" class="dropdown-item">RTH Publik</a>
-                                <a href="{{ route('home') }}" class="dropdown-item">RTH Privat</a>
+                                <a href="{{ route('rthtotal') }}" class="dropdown-item">RTH Total</a>
+                                <a href="{{ route('rthpublik') }}" class="dropdown-item">RTH Publik</a>
+                                <a href="{{ route('rthprivat') }}" class="dropdown-item">RTH Privat</a>
                             </div>
                         </li>
 
@@ -53,7 +53,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('home') }}">
+                            <a class="nav-link" href="{{ route('kontakkami') }}">
                                 <i class="dripicons-meter me-2"></i>Kontak Kami
                             </a>
                         </li>

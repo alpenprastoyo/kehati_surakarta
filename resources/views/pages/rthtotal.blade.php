@@ -21,7 +21,7 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-body">
-                        <p class="mb-0">This is RTH</p>
+                        <p class="mb-0">This is RTH total</p>
                     </div>
                 </div>
             </div>
