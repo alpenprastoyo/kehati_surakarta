@@ -128,15 +128,15 @@
 
             //dummy image data
             var dummy = [
-                'https://greencampus.uns.ac.id/wp-content/uploads/2022/07/image-4.png',
-                'https://greencampus.uns.ac.id/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-02-at-12.43.33.jpeg',
-                'https://greencampus.uns.ac.id/wp-content/uploads/2018/10/WhatsApp-Image-2018-10-16-at-12.28.02.jpeg'
+                '{{(asset("img/rth"))}}/1.jpg',
+                '{{(asset("img/rth"))}}/2.jpg',
+                '{{(asset("img/rth"))}}/3.jpg'
             ]
 
 
             $("#title").text(e.sourceTarget.feature.properties.Nama);
             $("#keterangan").text(e.sourceTarget.feature.properties.Keterangan);
-            $("#luas").html(e.sourceTarget.feature.properties.Luas_M2 + " M<sup>2</sup>");
+            $("#luas").html(e.sourceTarget.feature.properties.Luas_Ha + " Hektar");
             $("#image").attr("src",dummy[Math.floor(Math.random() * 3) ]);
             map.flyTo([e.sourceTarget.feature.properties.Y.replace(",","."),  e.sourceTarget.feature.properties.X.replace(",",".")], 18);
 

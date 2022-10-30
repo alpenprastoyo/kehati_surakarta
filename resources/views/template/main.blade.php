@@ -16,9 +16,11 @@
         <!-- Icons Css -->
         <link href="{{ asset('foxia/assets/css/icons.min.css')  }}" rel="stylesheet" type="text/css">
         <!-- App Css-->
-        <link href="{{ asset('foxia/assets/css/app.min.css')  }}" id="app-style" rel="stylesheet" type="text/css">
 
         @yield('css')
+
+        <link href="{{ asset('foxia/assets/css/app.min.css')  }}" id="app-style" rel="stylesheet" type="text/css">
+
 
     </head>
 
