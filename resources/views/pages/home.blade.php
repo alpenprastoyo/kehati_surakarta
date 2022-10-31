@@ -13,8 +13,8 @@
 @endsection
 
 @section('css')
-    <link href="{{ asset('lezir/css/materialdesignicons.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('lezir/css/style.min.css') }}" rel="stylesheet" type="text/css" />
+    {{-- <link href="{{ asset('lezir/css/materialdesignicons.min.css') }}" rel="stylesheet" type="text/css" /> --}}
+    <link href="{{ asset('lezir/css/style.css') }}" rel="stylesheet" type="text/css" />
 @endsection
 
 @section('pages')
