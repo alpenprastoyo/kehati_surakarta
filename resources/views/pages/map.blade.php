@@ -245,16 +245,16 @@
                         // )
                     }
                 }).addTo(map);
-                layerControl.addOverlay(geojsonrthpublik, "RTH Publik");
+                layerControl.addOverlay(geojsonrthpublik, "RTH");
             })
 
         //Polygon RTH Privat Surakarta
-        let url_rth_privat = '/geojson/geo_rth_privat.geojson';
-        const response_rth_privat = fetch(url_rth_privat).then(response_rth_privat => response_rth_privat.json()).then(
-            response_rth_privat => {
-                var geojsonrthprivat = L.geoJson(response_rth_privat, ).addTo(map);
-                layerControl.addOverlay(geojsonrthprivat, "RTH Privat");
-            })
+        // let url_rth_privat = '/geojson/geo_rth_privat.geojson';
+        // const response_rth_privat = fetch(url_rth_privat).then(response_rth_privat => response_rth_privat.json()).then(
+        //     response_rth_privat => {
+        //         var geojsonrthprivat = L.geoJson(response_rth_privat, ).addTo(map);
+        //         layerControl.addOverlay(geojsonrthprivat, "RTH Privat");
+        //     })
 
         //Polygon Sungai
         let url_sungai = '/geojson/geo_sungai.geojson';
