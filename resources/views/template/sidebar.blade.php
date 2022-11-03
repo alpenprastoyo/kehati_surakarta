@@ -22,7 +22,7 @@
                                 <i class="dripicons-meter me-2"></i>Beranda
                             </a>
                         </li>
-        
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-advanced-ui" role="button">
                                 <i class="dripicons-archive me-2"></i>RTH & Pohon
@@ -30,19 +30,19 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="topnav-advanced-ui">
                                 <a href="{{ route('rth') }}" class="dropdown-item">RTH</a>
-                                <a href="{{ route('ktppohon') }}" class="dropdown-item">KTP Pohon</a>
+                                {{-- <a href="{{ route('ktppohon') }}" class="dropdown-item">KTP Pohon</a> --}}
                             </div>
                         </li>
-        
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-advanced-ui" role="button">
                                 <i class="dripicons-archive me-2"></i>Statistik
                                 <div class="arrow-down"></div>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="topnav-advanced-ui">
-                                <a href="{{ route('rthtotal') }}" class="dropdown-item">RTH Total</a>
-                                <a href="{{ route('rthpublik') }}" class="dropdown-item">RTH Publik</a>
-                                <a href="{{ route('rthprivat') }}" class="dropdown-item">RTH Privat</a>
+                                <a href="{{ route('rthtotal') }}" class="dropdown-item">RTH</a>
+                                {{-- <a href="{{ route('rthpublik') }}" class="dropdown-item">RTH Publik</a>
+                                <a href="{{ route('rthprivat') }}" class="dropdown-item">RTH Privat</a> --}}
                             </div>
                         </li>
 

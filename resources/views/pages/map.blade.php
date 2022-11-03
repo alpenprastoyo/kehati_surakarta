@@ -25,8 +25,33 @@
         <div class="container-fluid">
 
 
-            <div style="padding-bottom: 20px" class="row">
-                <div id="map" class="map map-home" style="height: 600px; margin-top: 50px"></div>
+
+            <div class="row">
+
+                <div class="col-xl-3">
+                    <div class="card">
+                        <img id="image" class="card-img-top img-fluid"
+                            src="https://greencampus.uns.ac.id/wp-content/uploads/elementor/thumbs/child-worried-about-the-environment-caresses-a-la-2022-05-04-00-26-52-utc-1-ppreuyrwwje3ekish3me7jeboqxwibhmkmlibyners.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h3 id="title" >Hutan Solo</h3>
+                            <h4 class="card-title">Keterangan</h4>
+                            <p id="keterangan" class="card-text">Ini Merupakah Hutan RTH di solo</p>
+                            <h4 class="card-title">Luas</h4>
+                            <p id="luas" class="card-text">1000 M<sup>2</sup></p>
+                            <button type="button" class="btn btn-success">Lihat Detail</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-9">
+                    <div class="card">
+                        <div id="map" class="map map-home" style="height: 600px;"></div>
+                    </div>
+                </div>
+
+
             </div>
 
         </div>
@@ -98,7 +123,32 @@
         var layerControl = L.control.layers(baseLayers).addTo(map);
         layerControl.addBaseLayer(satellite, 'Satellite');
 
+        ///// Show Detail
+        function showDetail(e) {
 
+            //dummy image data
+            var dummy = [
+                '{{(asset("img/rth"))}}/1.jpg',
+                '{{(asset("img/rth"))}}/2.jpg',
+                '{{(asset("img/rth"))}}/3.jpg'
+            ]
+
+
+            $("#title").text(e.sourceTarget.feature.properties.Nama);
+            $("#keterangan").text(e.sourceTarget.feature.properties.Keterangan);
+            $("#luas").html(e.sourceTarget.feature.properties.Luas_Ha + " Hektar");
+            $("#image").attr("src",dummy[Math.floor(Math.random() * 3) ]);
+            map.flyTo([e.sourceTarget.feature.properties.Y.replace(",","."),  e.sourceTarget.feature.properties.X.replace(",",".")], 18);
+
+            // map.panTo(new L.LatLng( ,), 5);
+
+
+
+
+
+            // You can make your ajax call declaration here
+            //$.ajax(...
+        }
 
         ////////////////////////////Polygon Kecamatan Surakarta
         getGeoData('http://mapgeo.id:8844/peta/topojson_kec').then(data => geojsonkecamatan.addData(data));
@@ -133,8 +183,7 @@
                     fillOpacity: 0,
                     dashArray: 3
                 }
-            }
-            ,
+            },
             // onEachFeature: function(feature, layer) {
             //     layer.bindPopup('<p>' + feature.properties.kecamatan + '</p>')
             // }
@@ -182,25 +231,30 @@
                         }
                     },
                     onEachFeature: function(feature, layer) {
-                        layer.bindPopup(
-                            '<div style="text-align: center;"> ' + '<p>' + feature.properties.Nama +
-                            '</p>' +
-                            '<img style="padding-bottom:10px" src="https://greencampus.uns.ac.id/wp-content/uploads/elementor/thumbs/child-worried-about-the-environment-caresses-a-la-2022-05-04-00-26-52-utc-1-ppreuyrwwje3ekish3me7jeboqxwibhmkmlibyners.jpg" class="rounded float-left img-fluid" >' +
-                            '<button type="button" class="btn btn-success">Lihat Detail</button>' +
-                            '</div>'
-                        )
+
+                        layer.on({
+                            click: showDetail
+                        });
+
+                        // layer.bindPopup(
+                        //     '<div style="text-align: center;"> ' + '<p>' + feature.properties.Nama +
+                        //     '</p>' +
+                        //     '<img style="padding-bottom:10px" src="https://greencampus.uns.ac.id/wp-content/uploads/elementor/thumbs/child-worried-about-the-environment-caresses-a-la-2022-05-04-00-26-52-utc-1-ppreuyrwwje3ekish3me7jeboqxwibhmkmlibyners.jpg" class="rounded float-left img-fluid" >' +
+                        //     '<button type="button" class="btn btn-success">Lihat Detail</button>' +
+                        //     '</div>'
+                        // )
                     }
                 }).addTo(map);
-                layerControl.addOverlay(geojsonrthpublik, "RTH Publik");
+                layerControl.addOverlay(geojsonrthpublik, "RTH");
             })
 
         //Polygon RTH Privat Surakarta
-        let url_rth_privat = '/geojson/geo_rth_privat.geojson';
-        const response_rth_privat = fetch(url_rth_privat).then(response_rth_privat => response_rth_privat.json()).then(
-            response_rth_privat => {
-                var geojsonrthprivat = L.geoJson(response_rth_privat, ).addTo(map);
-                layerControl.addOverlay(geojsonrthprivat, "RTH Privat");
-            })
+        // let url_rth_privat = '/geojson/geo_rth_privat.geojson';
+        // const response_rth_privat = fetch(url_rth_privat).then(response_rth_privat => response_rth_privat.json()).then(
+        //     response_rth_privat => {
+        //         var geojsonrthprivat = L.geoJson(response_rth_privat, ).addTo(map);
+        //         layerControl.addOverlay(geojsonrthprivat, "RTH Privat");
+        //     })
 
         //Polygon Sungai
         let url_sungai = '/geojson/geo_sungai.geojson';

@@ -15,10 +15,6 @@
         </button>
 
         <ul style="padding-top: 10px" class="list-inline d-none d-lg-block mb-0">
-            <li class="list-inline-item me-3 help-number">
-                <span class="font-size-13 header-item">No HP : +012 3456 789</span>
-                {{-- <span class="font-size-13 header-item">Alamat : Jalan Ir. Sutami 36 Kentingan, Jebres, Surakarta, Jawa Tengah. Indonesia 57126                </span> --}}
-            </li>
             <li class="list-inline-item">
                 {{-- <div class="dropdown d-none d-lg-block">
                     <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
