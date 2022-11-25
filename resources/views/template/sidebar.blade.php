@@ -23,16 +23,24 @@
                             </a>
                         </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-advanced-ui" role="button">
-                                <i class="dripicons-archive me-2"></i>RTH & Pohon
-                                <div class="arrow-down"></div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('rth') }}">
+                                <i class="dripicons-meter me-2"></i>RTH
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="topnav-advanced-ui">
-                                <a href="{{ route('rth') }}" class="dropdown-item">RTH</a>
-                                {{-- <a href="{{ route('ktppohon') }}" class="dropdown-item">KTP Pohon</a> --}}
-                            </div>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('pohon') }}">
+                                <i class="dripicons-meter me-2"></i>Pohon
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('burung') }}">
+                                <i class="dripicons-meter me-2"></i>Burung
+                            </a>
+                        </li>
+
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-advanced-ui" role="button">
@@ -48,7 +56,7 @@
 
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('map') }}">
-                                <i class="dripicons-meter me-2"></i>Peta Spasial
+                                <i class="dripicons-map me-2"></i>Peta Spasial
                             </a>
                         </li>
 

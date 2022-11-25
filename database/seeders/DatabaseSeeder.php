@@ -15,6 +15,11 @@ class DatabaseSeeder extends Seeder
     {
         // \App\Models\User::factory(10)->create();
         $this->call(RTHSeeder::class);
+        $this->call(BurungSeeder::class);
+        $this->call(PohonSeeder::class);
+        // $this->call(RTHImageSeeder::class);
+
+
 
     }
 }

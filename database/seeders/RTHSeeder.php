@@ -15,7 +15,7 @@ class RTHSeeder extends Seeder
      */
     public function run()
     {
-        $csvFile = fopen(base_path("database/data/RTH.csv"), "r");
+        $csvFile = fopen(base_path("database/data/kehati_rth.csv"), "r");
 
         $firstline = true;
         while (($data = fgetcsv($csvFile, 2000, ";")) !== FALSE) {

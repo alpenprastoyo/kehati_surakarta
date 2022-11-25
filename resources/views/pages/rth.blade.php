@@ -78,6 +78,8 @@
                                         <th>Kecamatan</th>
                                         <th>Keluarahan</th>
                                         <th>Luas</th>
+                                        <th>Detail</th>
+
                                     </tr>
                                 </thead>
 
@@ -90,7 +92,10 @@
                                             <td>{{ $r->lokasi }}</td>
                                             <td>{{ $r->kecamatan }}</td>
                                             <td>{{ $r->kelurahan }}</td>
-                                            <td>{{ $r->luas }}</td>
+                                            <td>{{ $r->luas }} M<sup>2</sup></td>
+                                            <td>  <a target="_blank" id="detail" href="/rth/detail/{{ $r->id }}"> <button type="button"
+                                                class="btn btn-success">Lihat Detail</button></a></td>
+
                                         </tr>
                                     @endforeach
                                 </tbody>
@@ -108,12 +113,15 @@
 @section('js')
     <script src="{{ asset('foxia/assets/libs/datatables.net/js/jquery.dataTables.min.js') }}"></script>
     <script src="{{ asset('foxia/assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="https://cdn.datatables.net/responsive/2.4.0/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/rowreorder/1.3.1/js/dataTables.rowReorder.min.js"></script>
 
     <script>
         var jquery_datatable = $('#datatable').DataTable({
             "language": {
                 "url": "{{ asset('foxia/assets/libs/datatables.net-bs4/js/dataTables.Indonesian.json') }}"
-            }
+            },
+            responsive: true
         });
 
         function filter_kecamatan(filter) {
