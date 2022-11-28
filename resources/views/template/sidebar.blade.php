@@ -25,7 +25,7 @@
 
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('rth') }}">
-                                <i class="dripicons-meter me-2"></i>RTH
+                                <i class="dripicons-meter me-2"></i>Area Studi
                             </a>
                         </li>
 

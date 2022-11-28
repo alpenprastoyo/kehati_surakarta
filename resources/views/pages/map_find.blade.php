@@ -33,18 +33,16 @@
                         {{-- <img id="image" class="card-img-top img-fluid"
                             src="https://greencampus.uns.ac.id/wp-content/uploads/elementor/thumbs/child-worried-about-the-environment-caresses-a-la-2022-05-04-00-26-52-utc-1-ppreuyrwwje3ekish3me7jeboqxwibhmkmlibyners.jpg"
                             alt="Card image cap"> --}}
-                        <div style="padding:10px;" class="row align-items-center">
-                            <div class="col">
-                                <button onclick="previous_rth()" type="button" class="btn btn-success">
-                                    < Sebelumnya</button>
-                            </div>
-                            <div class="col">
-                                <div class="float-end d-md-block">
-                                    <button onclick="next_rth()" type="button" class="btn btn-success">Selanjutnya
-                                        ></button>
+                            <div style="padding:10px;" class="row align-items-center">
+                                <div class="col">
+                                    <button onclick="previous_rth()" type="button" class="btn btn-success">< Sebelumnya</button>
+                                </div>
+                                <div class="col">
+                                    <div class="float-end d-md-block">
+                                        <button onclick="next_rth()" type="button" class="btn btn-success">Selanjutnya ></button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
                         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                             <ol class="carousel-indicators slider">
                                 @php $x = 0 @endphp
@@ -63,14 +61,12 @@
                                 @foreach ($rth->image as $i)
                                     @if ($x == 1)
                                         <div class="carousel-item active">
-                                            <img class="d-block img-fluid"
-                                                src="{{ asset('/img/rth/' . $rth->id . '/' . $i) }}"
+                                            <img class="d-block img-fluid" src="{{ asset('/img/rth/' .$rth->id.'/'. $i) }}"
                                                 alt="{{ $x++ }}">
                                         </div>
                                     @else
                                         <div class="carousel-item">
-                                            <img class="d-block img-fluid"
-                                                src="{{ asset('/img/rth/' . $rth->id . '/' . $i) }}"
+                                            <img class="d-block img-fluid" src="{{ asset('/img/rth/'  .$rth->id.'/'. $i) }}"
                                                 alt="{{ $x++ }}">
                                         </div>
                                     @endif
@@ -93,28 +89,8 @@
                             <p id="keterangan" class="card-text">{{ $rth->kategori }}</p>
                             <h4 class="card-title">Luas</h4>
                             <p id="luas" class="card-text">{{ $rth->luas }} M<sup>2</sup></p>
-                            <h4 class="card-title">Jumlah Burung</h4>
-                            <div class="row">
-                                <div class="col-lg-1">
-                                    <p id="luas" class="card-text">6 </p>
-                                </div>
-                                <div class="col-lg-11">
-                                    <a target="_blank" id="detail" href="/burung/list/{{ $rth->id }}"> <button type="button"
-                                            class="btn btn-success">Lihat Detail Burung</button></a>
-                                </div>
-                            </div>
-                        </br>
-                            <h4 class="card-title">Jumlah Pohon</h4>
-                            <div class="row">
-                                <div class="col-lg-1">
-                                    <p id="luas" class="card-text">6 </p>
-                                </div>
-                                <div class="col-lg-11">
-                                    <a target="_blank" id="detail" href="/pohon/list/{{ $rth->id }}"> <button type="button"
-                                            class="btn btn-success">Lihat Detail Pohon</button></a>
-                                </div>
-                            </div>
-
+                            <a id="detail" href="/rth/detail/{{ $rth->id }}"> <button type="button"
+                                    class="btn btn-success">Lihat Detail</button></a>
                         </div>
                     </div>
 
@@ -164,7 +140,7 @@
         // $('.carousel').carousel()
 
         //GET RTH API
-        function get_rth(id) {
+        function get_rth(id){
             $.get("/rth/get/" + id, function(data, status) {
                 rth = $.parseJSON(data);
                 $("#title").text(rth.lokasi);
@@ -175,41 +151,32 @@
                 var slide = ""
                 var galery = ""
                 rth.image.forEach((value, index) => {
-                    if (index == 0) {
-                        slide = slide +
-                            '<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="' + index +
-                            '" class="active"></li>'
-                        galery = galery +
-                            '<div class="carousel-item active"><img class="d-block img-fluid" src="/img/rth/' +
-                            rth.id + '/' + value + '" alt="' + index + '"></div>'
-                    } else {
-                        slide = slide +
-                            '<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="' + index +
-                            '" ></li>'
-                        galery = galery +
-                            '<div class="carousel-item"><img class="d-block img-fluid" src="/img/rth/' + rth
-                            .id + '/' + value + '"></div>'
+                    if(index == 0 ){
+                        slide = slide + '<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="'+index+'" class="active"></li>'
+                        galery = galery + '<div class="carousel-item active"><img class="d-block img-fluid" src="/img/rth/'+rth.id+'/'+value+'" alt="'+index+'"></div>'
+                    }else{
+                        slide = slide + '<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="'+index+'" ></li>'
+                        galery = galery + '<div class="carousel-item"><img class="d-block img-fluid" src="/img/rth/'+rth.id+'/'+value+'"></div>'
                     }
                 });
                 $(".slider").html(slide);
                 $(".galery").html(galery);
-                map.flyTo([rth.latitude.replace(",", "."), rth.longitude.replace(",", ".")], 18);
+                map.flyTo([rth.latitude.replace(",","."), rth.longitude.replace(",",".")], 18);
             });
         }
 
         //NEXT PAGE RTH
         var id_rth = {{ $rth->id }}
-
-        function next_rth() {
-            if (id_rth == 51) {
+        function next_rth(){
+            if(id_rth == 51){
                 id_rth = 1;
             }
             id_rth = id_rth + 1;
             get_rth(id_rth)
         }
 
-        function previous_rth() {
-            if (id_rth == 1) {
+        function previous_rth(){
+            if(id_rth == 1){
                 id_rth = 51;
             }
             id_rth = id_rth - 1;
@@ -243,8 +210,8 @@
 
         //LOAD MAP
         let map = L.map('map', {
-            center: [{{ $rth->latitude }}, {{ $rth->longitude }}],
-            zoom: 15,
+            center: [{{ $rth->latitude }} , {{ $rth->longitude }}],
+            zoom: 18,
             layers: [satellite]
         });
 
@@ -368,5 +335,6 @@
                 }).addTo(map);
                 layerControl.addOverlay(geojsonrthpublik, "RTH");
             })
+
     </script>
 @endsection

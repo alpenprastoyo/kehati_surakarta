@@ -18,9 +18,30 @@ class MapController extends Controller
             $images[] = $f->getFileName();
         }
         $rth->image = $images;
+        $rth->latitude = str_replace(',','.',$rth->latitude);
+        $rth->longitude = str_replace(',','.',$rth->longitude);
         $data = [
             'rth' => $rth,
         ];
+        return view('pages/map',$data);
+    }
+
+    public function find($id){
+        $rth = RTHModel::where('id',$id)->first();
+        $files = File::allFiles(public_path().'/img/rth/'.$rth->id.'/');
+
+        $images = [];
+        foreach($files as $f){
+            $images[] = $f->getFileName();
+        }
+        $rth->image = $images;
+        $rth->latitude = str_replace(',','.',$rth->latitude);
+        $rth->longitude = str_replace(',','.',$rth->longitude);
+        $data = [
+            'rth' => $rth,
+        ];
+
+
         return view('pages/map',$data);
     }
 }

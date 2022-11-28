@@ -24,7 +24,7 @@
                             <h4 class="card-title">DATA POHON</h4>
 
 
-                            <div class=" row mb-3">
+                            {{-- <div class=" row mb-3">
                                 <label class="col-sm-2 col-form-label">Nama RTH</label>
                                 <div class="col-sm-5">
                                     <select onchange="filter_rth(this);" class="form-select"
@@ -48,7 +48,7 @@
                                         @endforeach
                                     </select>
                                 </div>
-                            </div>
+                            </div> --}}
 
                             {{-- <p class="card-title-desc">DataTables has most features enabled by
                                 default, so all you need to do to use it with your own tables is to call
@@ -60,17 +60,10 @@
                                 <thead>
                                     <tr>
                                         <th>No</th>
-                                        <th>Nama RTH</th>
                                         <th>Nama Jenis</th>
                                         <th>Spesies</th>
                                         <th>IUCN</th>
-                                        <th>Keterangan</th>
-                                        <th>Tinggi</th>
-                                        <th>Keliling</th>
-                                        <th>Diameter</th>
-                                        <th>Jarak Pohon</th>
-                                        <th>Panjang Coverage</th>
-                                        <th>Lebar Coverage</th>
+                                        <th>Aksi</th>
 
                                     </tr>
                                 </thead>
@@ -80,17 +73,11 @@
                                     @foreach ($pohon as $r)
                                         <tr>
                                             <td>{{ $no++ }}</td>
-                                            <td>{{ $r->nama_rth }}</td>
                                             <td>{{ $r->nama_jenis }}</td>
                                             <td>{{ $r->spesies }}</td>
                                             <td>{{ $r->iucn }}</td>
-                                            <td>{{ $r->keterangan }}</td>
-                                            <td>{{ $r->tinggi }}</td>
-                                            <td>{{ $r->keliling }}</td>
-                                            <td>{{ $r->diameter }}</td>
-                                            <td>{{ $r->jarak_pohon }}</td>
-                                            <td>{{ $r->panjang_coverage }}</td>
-                                            <td>{{ $r->lebar_coverage }}</td>
+                                            <td>  <a target="_blank" id="detail" href="/pohon/{{ $r->id }}"> <button type="button"
+                                                class="btn btn-success">Lihat Detail</button></a></td>
                                         </tr>
                                     @endforeach
                                 </tbody>
@@ -146,13 +133,13 @@
             responsive: true
         });
 
-        function filter_rth(filter) {
-            // console.log(filter.value);
-            jquery_datatable.column(1).search(filter.value).draw();
-        }
+        // function filter_rth(filter) {
+        //     // console.log(filter.value);
+        //     jquery_datatable.column(1).search(filter.value).draw();
+        // }
 
-        function filter_jenis(filter) {
-            jquery_datatable.column(2).search(filter.value).draw();
-        }
+        // function filter_jenis(filter) {
+        //     jquery_datatable.column(2).search(filter.value).draw();
+        // }
     </script>
 @endsection

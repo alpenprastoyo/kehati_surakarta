@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-8">
-                    <h6 class="page-title">DATA BURUNG</h6>
+                    <h6 class="page-title">DATA BURUNG PADA AREA STUDI <span style="text-transform:uppercase">{{ $rth->lokasi }}</span> </h6>
                 </div>
             </div>
         </div>
@@ -21,10 +21,10 @@
                     <div class="card">
                         <div class="card-body">
 
-                            <h4 class="card-title">DATA BURUNG</h4>
+                            <h4 class="card-title">DATA BURUNG PADA AREA STUDI <span style="text-transform:uppercase">{{ $rth->lokasi }}</span> </h4>
 
-{{--
-                            <div class=" row mb-3">
+
+                            {{-- <div class=" row mb-3">
                                 <label class="col-sm-2 col-form-label">Nama RTH</label>
                                 <div class="col-sm-5">
                                     <select onchange="filter_rth(this);" class="form-select"
@@ -38,11 +38,11 @@
                             </div>
 
                             <div class=" row mb-3">
-                                <label class="col-sm-2 col-form-label">Jenis Burung</label>
+                                <label class="col-sm-2 col-form-label">Jenis Pohon</label>
                                 <div class="col-sm-5">
                                     <select onchange="filter_jenis(this);" class="form-select"
                                         aria-label="Default select example">
-                                        <option selected="" value="" >Pilih Jenis Burung</option>
+                                        <option selected="" value="">Pilih Jenis Pohon</option>
                                         @foreach ($nama_jenis as $k)
                                             <option value="{{ $k->nama_jenis }}">{{ $k->nama_jenis }}</option>
                                         @endforeach
@@ -60,12 +60,9 @@
                                 <thead>
                                     <tr>
                                         <th>No</th>
-                                        {{-- <th>Nama RTH</th> --}}
                                         <th>Nama Jenis</th>
                                         <th>Spesies</th>
-                                        {{-- <th>Jumlah</th> --}}
                                         <th>IUCN</th>
-                                        {{-- <th>Gambar</th> --}}
                                         <th>Aksi</th>
 
                                     </tr>
@@ -76,12 +73,9 @@
                                     @foreach ($burung as $r)
                                         <tr>
                                             <td>{{ $no++ }}</td>
-                                            {{-- <td>{{ $r->nama_rth }}</td> --}}
                                             <td>{{ $r->nama_jenis }}</td>
                                             <td>{{ $r->spesies }}</td>
-                                            {{-- <td>{{ $r->jumlah }}</td> --}}
                                             <td>{{ $r->iucn }}</td>
-                                            {{-- <td>{{ $r->image }}</td> --}}
                                             <td>  <a target="_blank" id="detail" href="/burung/{{ $r->id_rth }}"> <button type="button"
                                                 class="btn btn-success">Lihat Detail</button></a></td>
                                         </tr>
@@ -96,17 +90,27 @@
 
         </div>
     </div>
+
+
 @endsection
 
 @section('js')
     <script src="{{ asset('foxia/assets/libs/datatables.net/js/jquery.dataTables.min.js') }}"></script>
     <script src="{{ asset('foxia/assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="https://cdn.datatables.net/responsive/2.4.0/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/rowreorder/1.3.1/js/dataTables.rowReorder.min.js"></script>
+
+
 
     <script>
         var jquery_datatable = $('#datatable').DataTable({
             "language": {
                 "url": "{{ asset('foxia/assets/libs/datatables.net-bs4/js/dataTables.Indonesian.json') }}"
-            }
+            },
+            rowReorder: {
+                selector: 'td:nth-child(2)'
+            },
+            responsive: true
         });
 
         // function filter_rth(filter) {
@@ -117,7 +121,5 @@
         // function filter_jenis(filter) {
         //     jquery_datatable.column(2).search(filter.value).draw();
         // }
-
-
     </script>
 @endsection

@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-8">
-                    <h6 class="page-title">RTH</h6>
+                    <h6 class="page-title">Area Studi</h6>
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@
                     <div class="card">
                         <div class="card-body">
 
-                            <h4 class="card-title">DATA RUANG TERBUKA HIJAU</h4>
+                            <h4 class="card-title">DATA AREA STUDI</h4>
 
 
                             <div class=" row mb-3">
@@ -93,8 +93,13 @@
                                             <td>{{ $r->kecamatan }}</td>
                                             <td>{{ $r->kelurahan }}</td>
                                             <td>{{ $r->luas }} M<sup>2</sup></td>
-                                            <td>  <a target="_blank" id="detail" href="/rth/detail/{{ $r->id }}"> <button type="button"
-                                                class="btn btn-success">Lihat Detail</button></a></td>
+                                            <td style="align-content: center">
+                                                {{-- <a target="_blank" id="detail" href="/rth/detail/{{ $r->id }}"> <button type="button"
+                                                class="btn btn-success">Lihat Detail</button></a>
+                                                </br></br> --}}
+                                                <a target="_blank" id="detail" href="/map/{{ $r->id }}"> <button type="button"
+                                                    class="btn btn-success">Lihat Peta</button></a>
+                                            </td>
 
                                         </tr>
                                     @endforeach
