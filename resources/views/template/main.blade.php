@@ -9,7 +9,7 @@
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description">
         <meta content="Themesbrand" name="author">
         <!-- App favicon -->
-        <link rel="shortcut icon" href="{{ asset('foxia/assets/images/favicon.ico') }}">
+        <link rel="shortcut icon" href="{{ asset('img/logo/logo-sm.png') }}">
 
         <!-- Bootstrap Css -->
         <link href="{{ asset('/foxia/assets/css/bootstrap.min.css')  }}" id="bootstrap-style" rel="stylesheet" type="text/css">
