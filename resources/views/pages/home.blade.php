@@ -42,7 +42,7 @@
                     </div>
                 </section>
                 <!-- Hero End -->
-                <section class="section feather-bg-img" style="background-image: url(images/features-bg-img-1.png)">
+                {{-- <section class="section feather-bg-img" style="background-image: url(images/features-bg-img-1.png)">
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="col-lg-5">
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> --}}
             </div>
 
         </div>

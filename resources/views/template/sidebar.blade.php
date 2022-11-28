@@ -19,25 +19,25 @@
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('home') }}">
-                                <i class="dripicons-meter me-2"></i>Beranda
+                                <i class="mdi mdi-home"></i>Beranda
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('rth') }}">
-                                <i class="dripicons-meter me-2"></i>Area Studi
+                                <i class="mdi mdi-binoculars"></i>Area Studi
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('pohon') }}">
-                                <i class="dripicons-meter me-2"></i>Pohon
+                                <i class="mdi mdi-tree"></i>Pohon
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('burung') }}">
-                                <i class="dripicons-meter me-2"></i>Burung
+                                <i class="mdi mdi-bird"></i>Burung
                             </a>
                         </li>
 
@@ -56,13 +56,13 @@
 
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('map') }}">
-                                <i class="dripicons-map me-2"></i>Peta Spasial
+                                <i class="mdi mdi-map"></i>Peta Spasial
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('kontakkami') }}">
-                                <i class="dripicons-meter me-2"></i>Kontak Kami
+                                <i class="mdi mdi-phone"></i>Kontak Kami
                             </a>
                         </li>
                     </ul>
