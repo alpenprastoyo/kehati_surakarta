@@ -30,16 +30,91 @@
 
                 <div class="col-xl-3">
                     <div class="card">
-                        <img id="image" class="card-img-top img-fluid"
+                        {{-- <img id="image" class="card-img-top img-fluid"
                             src="https://greencampus.uns.ac.id/wp-content/uploads/elementor/thumbs/child-worried-about-the-environment-caresses-a-la-2022-05-04-00-26-52-utc-1-ppreuyrwwje3ekish3me7jeboqxwibhmkmlibyners.jpg"
-                            alt="Card image cap">
+                            alt="Card image cap"> --}}
+                        <div style="padding:10px;" class="row align-items-center">
+                            <div class="col">
+                                <button onclick="previous_rth()" type="button" class="btn btn-success">
+                                    < Sebelumnya</button>
+                            </div>
+                            <div class="col">
+                                <div class="float-end d-md-block">
+                                    <button onclick="next_rth()" type="button" class="btn btn-success">Selanjutnya
+                                        ></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <ol class="carousel-indicators slider">
+                                @php $x = 0 @endphp
+                                @foreach ($rth->image as $i)
+                                    @if ($x == 0)
+                                        <li data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="{{ $x++ }}" class="active"></li>
+                                    @else
+                                        <li data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="{{ $x++ }}"></li>
+                                    @endif
+                                @endforeach
+                            </ol>
+                            <div class="carousel-inner galery" role="listbox">
+                                @php $x = 1 @endphp
+                                @foreach ($rth->image as $i)
+                                    @if ($x == 1)
+                                        <div class="carousel-item active">
+                                            <img class="d-block img-fluid"
+                                                src="{{ asset('/img/rth/' . $rth->id . '/' . $i) }}"
+                                                alt="{{ $x++ }}">
+                                        </div>
+                                    @else
+                                        <div class="carousel-item">
+                                            <img class="d-block img-fluid"
+                                                src="{{ asset('/img/rth/' . $rth->id . '/' . $i) }}"
+                                                alt="{{ $x++ }}">
+                                        </div>
+                                    @endif
+                                @endforeach
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
                         <div class="card-body">
-                            <h3 id="title" >Hutan Solo</h3>
-                            <h4 class="card-title">Keterangan</h4>
-                            <p id="keterangan" class="card-text">Ini Merupakah Hutan RTH di solo</p>
+                            <h3 id="title">{{ $rth->lokasi }}</h3>
+                            <h4 class="card-title">Kategori</h4>
+                            <p id="keterangan" class="card-text">{{ $rth->kategori }}</p>
                             <h4 class="card-title">Luas</h4>
-                            <p id="luas" class="card-text">1000 M<sup>2</sup></p>
-                            <button type="button" class="btn btn-success">Lihat Detail</button>
+                            <p id="luas" class="card-text">{{ $rth->luas }} M<sup>2</sup></p>
+                            <h4 class="card-title">Jumlah Burung</h4>
+                            <div class="row">
+                                <div class="col-lg-1">
+                                    <p id="luas" class="card-text">6 </p>
+                                </div>
+                                <div class="col-lg-11">
+                                    <a target="_blank" id="detail" href="/burung/list/{{ $rth->id }}"> <button type="button"
+                                            class="btn btn-success">Lihat Detail Burung</button></a>
+                                </div>
+                            </div>
+                        </br>
+                            <h4 class="card-title">Jumlah Pohon</h4>
+                            <div class="row">
+                                <div class="col-lg-1">
+                                    <p id="luas" class="card-text">6 </p>
+                                </div>
+                                <div class="col-lg-11">
+                                    <a target="_blank" id="detail" href="/pohon/list/{{ $rth->id }}"> <button type="button"
+                                            class="btn btn-success">Lihat Detail Pohon</button></a>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 
@@ -85,6 +160,64 @@
     <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.min.js"></script>
 
     <script>
+        //CAROUSEL
+        // $('.carousel').carousel()
+
+        //GET RTH API
+        function get_rth(id) {
+            $.get("/rth/get/" + id, function(data, status) {
+                rth = $.parseJSON(data);
+                $("#title").text(rth.lokasi);
+                $("#keterangan").text(rth.kategori);
+                $("#luas").html(rth.luas + " M<sup>2</sup>");
+                // $("#image").attr("src", dummy[Math.floor(Math.random() * 3)]);
+                $("#detail").attr("href", "/rth/detail/" + rth.id);
+                var slide = ""
+                var galery = ""
+                rth.image.forEach((value, index) => {
+                    if (index == 0) {
+                        slide = slide +
+                            '<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="' + index +
+                            '" class="active"></li>'
+                        galery = galery +
+                            '<div class="carousel-item active"><img class="d-block img-fluid" src="/img/rth/' +
+                            rth.id + '/' + value + '" alt="' + index + '"></div>'
+                    } else {
+                        slide = slide +
+                            '<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="' + index +
+                            '" ></li>'
+                        galery = galery +
+                            '<div class="carousel-item"><img class="d-block img-fluid" src="/img/rth/' + rth
+                            .id + '/' + value + '"></div>'
+                    }
+                });
+                $(".slider").html(slide);
+                $(".galery").html(galery);
+                map.flyTo([rth.latitude.replace(",", "."), rth.longitude.replace(",", ".")], 18);
+            });
+        }
+
+        //NEXT PAGE RTH
+        var id_rth = {{ $rth->id }}
+
+        function next_rth() {
+            if (id_rth == 51) {
+                id_rth = 1;
+            }
+            id_rth = id_rth + 1;
+            get_rth(id_rth)
+        }
+
+        function previous_rth() {
+            if (id_rth == 1) {
+                id_rth = 51;
+            }
+            id_rth = id_rth - 1;
+            get_rth(id_rth)
+        }
+
+
+
         //SET MAP
         var mbAttr =
             'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
@@ -110,8 +243,8 @@
 
         //LOAD MAP
         let map = L.map('map', {
-            center: [-7.5592076, 110.8257925],
-            zoom: 13,
+            center: [{{ $rth->latitude }}, {{ $rth->longitude }}],
+            zoom: 15,
             layers: [satellite]
         });
 
@@ -125,30 +258,22 @@
 
         ///// Show Detail
         function showDetail(e) {
-
+            // alert('sadf')
             //dummy image data
-            var dummy = [
-                '{{(asset("img/rth"))}}/1.jpg',
-                '{{(asset("img/rth"))}}/2.jpg',
-                '{{(asset("img/rth"))}}/3.jpg'
-            ]
+            // var dummy = [
+            //     '{{ asset('img/rth') }}/1.jpg',
+            //     '{{ asset('img/rth') }}/2.jpg',
+            //     '{{ asset('img/rth') }}/3.jpg'
+            // ]
 
-
-            $("#title").text(e.sourceTarget.feature.properties.Nama);
-            $("#keterangan").text(e.sourceTarget.feature.properties.Keterangan);
-            $("#luas").html(e.sourceTarget.feature.properties.Luas_Ha + " Hektar");
-            $("#image").attr("src",dummy[Math.floor(Math.random() * 3) ]);
-            map.flyTo([e.sourceTarget.feature.properties.Y.replace(",","."),  e.sourceTarget.feature.properties.X.replace(",",".")], 18);
-
-            // map.panTo(new L.LatLng( ,), 5);
+            get_rth(e.sourceTarget.feature.properties.Kode_Baru)
 
 
 
 
-
-            // You can make your ajax call declaration here
-            //$.ajax(...
         }
+
+
 
         ////////////////////////////Polygon Kecamatan Surakarta
         getGeoData('http://mapgeo.id:8844/peta/topojson_kec').then(data => geojsonkecamatan.addData(data));
@@ -172,7 +297,7 @@
         L.topoJson = function(data, options) {
             return new L.TopoJSON(data, options);
         };
-        //create an empty geojsonkecamatan layer
+        // create an empty geojsonkecamatan layer
         //with a style and a popup on click
         var geojsonkecamatan = L.topoJson(null, {
             style: function(feature) {
@@ -181,7 +306,8 @@
                     weight: 3,
                     opacity: 1,
                     fillOpacity: 0,
-                    dashArray: 3
+                    dashArray: 3,
+                    interactive: false
                 }
             },
             // onEachFeature: function(feature, layer) {
@@ -199,7 +325,7 @@
 
         layerControl.addOverlay(geojsonkecamatan, "Kecamatan");
 
-        //Polygon Kelurahan Surakarta
+        // Polygon Kelurahan Surakarta
         let url_kelurahan = '/geojson/geo_kelurahan_surakarta.geojson';
         const response_kelurahan = fetch(url_kelurahan).then(response_kelurahan => response_kelurahan.json()).then(
             response_kelurahan => {
@@ -210,15 +336,17 @@
                             weight: 3,
                             opacity: 1,
                             fillOpacity: 0,
-                            dashArray: 3
+                            dashArray: 3,
+                            interactive: false
                         }
                     }
                 }).addTo(map);
                 layerControl.addOverlay(geojsonkelurahan, "Kelurahan");
             })
 
-        //Polygon RTH Publik Surakarta
-        let url_rth_publik = '/geojson/geo_rth_publik.geojson';
+
+        // Polygon RTH Publik Surakarta
+        let url_rth_publik = '/geojson/geo_rth.geojson';
         const response_rth_publik = fetch(url_rth_publik).then(response_rth_publik => response_rth_publik.json()).then(
             response_rth_publik => {
                 var geojsonrthpublik = L.geoJson(response_rth_publik, {
@@ -236,56 +364,9 @@
                             click: showDetail
                         });
 
-                        // layer.bindPopup(
-                        //     '<div style="text-align: center;"> ' + '<p>' + feature.properties.Nama +
-                        //     '</p>' +
-                        //     '<img style="padding-bottom:10px" src="https://greencampus.uns.ac.id/wp-content/uploads/elementor/thumbs/child-worried-about-the-environment-caresses-a-la-2022-05-04-00-26-52-utc-1-ppreuyrwwje3ekish3me7jeboqxwibhmkmlibyners.jpg" class="rounded float-left img-fluid" >' +
-                        //     '<button type="button" class="btn btn-success">Lihat Detail</button>' +
-                        //     '</div>'
-                        // )
                     }
                 }).addTo(map);
                 layerControl.addOverlay(geojsonrthpublik, "RTH");
             })
-
-        //Polygon RTH Privat Surakarta
-        // let url_rth_privat = '/geojson/geo_rth_privat.geojson';
-        // const response_rth_privat = fetch(url_rth_privat).then(response_rth_privat => response_rth_privat.json()).then(
-        //     response_rth_privat => {
-        //         var geojsonrthprivat = L.geoJson(response_rth_privat, ).addTo(map);
-        //         layerControl.addOverlay(geojsonrthprivat, "RTH Privat");
-        //     })
-
-        //Polygon Sungai
-        let url_sungai = '/geojson/geo_sungai.geojson';
-        const response_sungai = fetch(url_sungai).then(response_sungai => response_sungai.json()).then(response_sungai => {
-            var geojsonsungai = L.geoJson(response_sungai, {
-                style: function(feature) {
-                    return {
-                        color: "blue",
-                        weight: 3,
-                        opacity: 1,
-                        fillOpacity: 0,
-                    }
-                }
-            }).addTo(map);
-            layerControl.addOverlay(geojsonsungai, "Sungai");
-        })
-
-        //Polygon Rel
-        let url_rel = '/geojson/geo_rel.geojson';
-        const response_rel = fetch(url_rel).then(response_rel => response_rel.json()).then(response_rel => {
-            var geojsonrel = L.geoJson(response_rel, {
-                style: function(feature) {
-                    return {
-                        color: "red",
-                        weight: 3,
-                        opacity: 1,
-                        fillOpacity: 0,
-                    }
-                }
-            }).addTo(map);
-            layerControl.addOverlay(geojsonrel, "Rel");
-        })
     </script>
 @endsection
