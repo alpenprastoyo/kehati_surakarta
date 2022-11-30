@@ -34,10 +34,16 @@ class PohonController extends Controller
     public function list($id){
         $pohon = PohonRTHModel::where('id_rth',$id)->get();
         foreach($pohon as $p){
-            $p->iucn = PohonModel::where('nama_jenis',$p->nama)->first()->iucn;
-            $p->nama_jenis = PohonModel::where('nama_jenis',$p->nama)->first()->nama_jenis;
-            $p->spesies = PohonModel::where('nama_jenis',$p->nama)->first()->spesies;
+            try {
+                $p->iucn = PohonModel::where('nama_jenis',$p->nama)->first()->iucn;
+                $p->nama_jenis = PohonModel::where('nama_jenis',$p->nama)->first()->nama_jenis;
+                $p->spesies = PohonModel::where('nama_jenis',$p->nama)->first()->spesies;
+            } catch (\Throwable $th) {
+                dd($p);
+            }
+
         }
+
         $data = [
             'pohon' => $pohon,
             'rth' => RTHModel::where('id',$id)->first()
