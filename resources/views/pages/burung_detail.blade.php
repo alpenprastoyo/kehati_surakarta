@@ -56,7 +56,7 @@
                     <div class="card">
                         <div class="card-body">
 
-                            <h4 class="card-title">DATA POHON</h4>
+                            <h4 class="card-title">DATA BURUNG</h4>
 
                             <div class="row mb-3">
                                 <label for="example-text-input" class="col-sm-2 col-form-label">Nama Jenis</label>
