@@ -95,10 +95,10 @@
                             <p id="luas" class="card-text">{{ $rth->luas }} M<sup>2</sup></p>
                             <h4 class="card-title">Jumlah Burung</h4>
                             <div class="row">
-                                <div class="col-lg-1">
-                                    <p id="luas" class="card-text">{{ $rth->jumlah_burung }} </p>
+                                <div class="col-lg-2">
+                                    <p id="jumlah_burung" class="card-text">{{ $rth->jumlah_burung }} </p>
                                 </div>
-                                <div class="col-lg-11">
+                                <div class="col-lg-10">
                                     <a target="_blank" id="detail" href="/burung/list/{{ $rth->id }}"> <button
                                             type="button" class="btn btn-success">Lihat Detail Burung</button></a>
                                 </div>
@@ -106,10 +106,10 @@
                             </br>
                             <h4 class="card-title">Jumlah Pohon</h4>
                             <div class="row">
-                                <div class="col-lg-1">
-                                    <p id="luas" class="card-text">{{} $rth->jumlah_pohon }} </p>
+                                <div class="col-lg-2">
+                                    <p id="jumlah_pohon" class="card-text">{{ $rth->jumlah_pohon }} </p>
                                 </div>
-                                <div class="col-lg-11">
+                                <div class="col-lg-10">
                                     <a target="_blank" id="detail" href="/pohon/list/{{ $rth->id }}"> <button
                                             type="button" class="btn btn-success">Lihat Detail Pohon</button></a>
                                 </div>
@@ -170,6 +170,9 @@
                 $("#title").text(rth.lokasi);
                 $("#keterangan").text(rth.kategori);
                 $("#luas").html(rth.luas + " M<sup>2</sup>");
+                $("#jumlah_pohon").html(rth.jumlah_pohon );
+                $("#jumlah_burung").html(rth.jumlah_burung );
+
                 // $("#image").attr("src", dummy[Math.floor(Math.random() * 3)]);
                 $("#detail").attr("href", "/rth/detail/" + rth.id);
                 var slide = ""
