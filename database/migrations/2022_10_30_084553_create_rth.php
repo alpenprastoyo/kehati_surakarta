@@ -27,6 +27,9 @@ class CreateRth extends Migration
             $table->string('longitude');
             $table->string('tim');
             $table->string('jumlah_pcc');
+            $table->string('jumlah_pohon');
+            $table->string('jumlah_burung');
+
             $table->timestamps();
         });
     }

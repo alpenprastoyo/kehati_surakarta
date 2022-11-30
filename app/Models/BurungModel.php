@@ -12,13 +12,8 @@ class BurungModel extends Model
 
     protected $fillable = [
         'id',
-        'id_rth',
-        'nama_rth',
         'nama_jenis',
         'spesies',
-        'jumlah',
-        'latitude',
-        'longitude',
         'iucn',
         'image'
     ];

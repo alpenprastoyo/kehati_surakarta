@@ -11,21 +11,9 @@ class PohonModel extends Model
 
     protected $fillable = [
         'id',
-        'id_rth',
-        'nama_rth',
-        'pcq',
         'nama_jenis',
         'spesies',
-        'tinggi',
-        'keliling',
-        'diameter',
-        'jarak_pohon',
-        'panjang_coverage',
-        'lebar_coverage',
-        'latitude',
-        'longitude',
         'iucn',
-        'keterangan',
         'image'
     ];
 

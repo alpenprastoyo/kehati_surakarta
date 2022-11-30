@@ -109,7 +109,7 @@
                                         <tr>
                                             <td>{{ $no++ }}</td>
                                             <td>{{ $r->nama_rth }}</td>
-                                            <td><a target="_blank" id="detail" href="/map/{{ $r->id }}"> <button type="button"
+                                            <td><a target="_blank" id="detail" href="/map/{{ $r->id_rth }}"> <button type="button"
                                                 class="btn btn-success">Lihat Peta</button></a></td>
                                         </tr>
                                     @endforeach

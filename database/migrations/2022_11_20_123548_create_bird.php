@@ -15,15 +15,9 @@ class CreateBird extends Migration
     {
         Schema::create('kehati_burung', function (Blueprint $table) {
             $table->id();
-            $table->string('id_rth');
-            $table->string('nama_rth');
             $table->string('nama_jenis');
             $table->string('spesies');
-            $table->integer('jumlah');
-            $table->string('latitude');
-            $table->string('longitude');
             $table->string('iucn');
-            $table->string('keterangan');
             $table->string('image')->nullable();
             $table->timestamps();
         });

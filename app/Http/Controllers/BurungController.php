@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\BurungModel;
+use App\Models\BurungRTHModel;
 use App\Models\RTHModel;
 use Illuminate\Http\Request;
+
 
 
 class BurungController extends Controller
@@ -12,27 +14,31 @@ class BurungController extends Controller
     public function index()
     {
         $data = [
-            'burung' => BurungModel::get(),
-            'nama_rth' => BurungModel::select('nama_rth')->distinct('nama_rth')->get(),
-            'nama_jenis' => BurungModel::select('nama_jenis')->distinct('nama_jenis')->get()
+            'burung' => BurungModel::groupBy('nama_jenis')->get()
         ];
+
 
         return view('pages/burung', $data);
     }
 
     public function detail($id)
     {
-        $burung = BurungModel::where('id',$id)->first();
+        $burung = BurungModel::where('nama_jenis',$id)->first();
         $data = [
             'burung' => $burung,
-            'rth' => BurungModel::where('spesies',$burung->spesies)->groupBy('nama_rth','spesies')->get()
+            'rth' => BurungRTHModel::where('nama',$id)->get()
         ];
 
         return view('pages/burung_detail', $data);
     }
 
     public function list($id){
-        $burung = BurungModel::where('id_rth',$id)->groupBy('spesies')->get();
+        $burung = BurungRTHModel::where('id_rth',$id)->get();
+        foreach($burung as $p){
+            $p->iucn = BurungModel::where('nama_jenis',$p->nama)->first()->iucn;
+            $p->nama_jenis = BurungModel::where('nama_jenis',$p->nama)->first()->nama_jenis;
+            $p->spesies = BurungModel::where('nama_jenis',$p->nama)->first()->spesies;
+        }
         $data = [
             'burung' => $burung,
             'rth' => RTHModel::where('id',$id)->first()

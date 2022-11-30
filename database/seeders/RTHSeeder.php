@@ -33,7 +33,9 @@ class RTHSeeder extends Seeder
                     "latitude" => $data['9'],
                     "longitude" => $data['10'],
                     "tim" => $data['11'],
-                    "jumlah_pcc" => $data['12']
+                    "jumlah_pcc" => $data['12'],
+                    "jumlah_pohon" => $data['13'],
+                    "jumlah_burung" => $data['14'],
                 ]);
             }
             $firstline = false;

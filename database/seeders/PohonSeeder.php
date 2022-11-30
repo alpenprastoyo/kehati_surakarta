@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\PohonModel;
+use App\Models\PohonRTHModel;
 use Illuminate\Database\Seeder;
 
 
@@ -21,22 +22,26 @@ class PohonSeeder extends Seeder
         while (($data = fgetcsv($csvFile, 2000, ";")) !== FALSE) {
             if (!$firstline) {
                 PohonModel::create([
-                    "id_rth" => $data['0'],
-                    "nama_rth" => $data['1'],
-                    "pcq" => str_replace(",",".",$data['2']),
-                    "nama_jenis" => $data['3'],
-                    "spesies" => $data['4'],
-                    "tinggi" => str_replace(",",".",$data['5']),
-                    "keliling" => $data['6'],
-                    "diameter" => str_replace(",",".",$data['7']),
-                    "jarak_pohon" => str_replace(",",".",$data['8']),
-                    "panjang_coverage" => str_replace(",",".",$data['9']),
-                    "lebar_coverage" => str_replace(",",".",$data['10']),
-                    "latitude" => $data['11'],
-                    "longitude" => $data['12'],
-                    "iucn" => $data['13'],
-                    "keterangan" => $data['14'],
-                    "image" => $data['15'],
+                    "nama_jenis" => $data['0'],
+                    "spesies" => $data['1'],
+                    "iucn" => $data['2'],
+                    "image" => $data['3']
+                ]);
+            }
+            $firstline = false;
+        }
+
+        $csvFile = fopen(base_path("database/data/kehati_pohon_rth.csv"), "r");
+
+        $firstline = true;
+        while (($data = fgetcsv($csvFile, 2000, ";")) !== FALSE) {
+            if (!$firstline) {
+                $id_rth = str_replace('.','', $data['3']);
+                $id_rth = str_replace('          ','', $id_rth);
+                PohonRTHModel::create([
+                    "nama" => $data['0'],
+                    "id_rth" => $id_rth,
+                    "nama_rth" => $data['2']
                 ]);
             }
             $firstline = false;

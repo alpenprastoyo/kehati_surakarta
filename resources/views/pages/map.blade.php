@@ -99,19 +99,19 @@
                                     <p id="luas" class="card-text">6 </p>
                                 </div>
                                 <div class="col-lg-11">
-                                    <a target="_blank" id="detail" href="/burung/list/{{ $rth->id }}"> <button type="button"
-                                            class="btn btn-success">Lihat Detail Burung</button></a>
+                                    <a target="_blank" id="detail" href="/burung/list/{{ $rth->id }}"> <button
+                                            type="button" class="btn btn-success">Lihat Detail Burung</button></a>
                                 </div>
                             </div>
-                        </br>
+                            </br>
                             <h4 class="card-title">Jumlah Pohon</h4>
                             <div class="row">
                                 <div class="col-lg-1">
                                     <p id="luas" class="card-text">6 </p>
                                 </div>
                                 <div class="col-lg-11">
-                                    <a target="_blank" id="detail" href="/pohon/list/{{ $rth->id }}"> <button type="button"
-                                            class="btn btn-success">Lihat Detail Pohon</button></a>
+                                    <a target="_blank" id="detail" href="/pohon/list/{{ $rth->id }}"> <button
+                                            type="button" class="btn btn-success">Lihat Detail Pohon</button></a>
                                 </div>
                             </div>
 
@@ -235,7 +235,7 @@
             attribution: mbAttr
         });
 
-        var satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+        googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
             maxZoom: 20,
             subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
         });
@@ -245,16 +245,17 @@
         let map = L.map('map', {
             center: [{{ $rth->latitude }}, {{ $rth->longitude }}],
             zoom: 15,
-            layers: [satellite]
+            layers: [googleSat]
         });
 
         var baseLayers = {
             'OpenStreetMap': osm,
-            'Streets': streets
+            'Streets': streets,
+            'Satellite' : googleSat
         };
 
         var layerControl = L.control.layers(baseLayers).addTo(map);
-        layerControl.addBaseLayer(satellite, 'Satellite');
+        // layerControl.addBaseLayer(satellite, 'Satellite');
 
         ///// Show Detail
         function showDetail(e) {

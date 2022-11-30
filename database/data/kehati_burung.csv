@@ -1,403 +1,84 @@
-﻿No Baru;RTH;Nama Jenis;Spesies;Jumlah Individu;Latitude;Longitude;IUCN;Keterangan Luas;Image
-1;Makam Bonoloyo;Bondol Jawa;Lonchura leucogastroides;11;-7,5376;-110,8249969;Least Concern;Besar;23. bondol jawa.jpg
-1;Makam Bonoloyo;Bondol Peking;Lonchura punctulata;18;-7,5376;-110,8249969;Least Concern;Besar;22. bondol peking.jpg
-1;Makam Bonoloyo;Burung-gereja Erasia;Passer montanus;12;-7,5376;-110,8249969;Least Concern;Besar;32. gereja erasia.jpg
-1;Makam Bonoloyo;Cabai Jawa;Dicaeum trochileum;6;-7,5376;-110,8249969;Least Concern;Besar;21. cabai jawa jantan.jpg
-1;Makam Bonoloyo;Cinenen Jawa;Orthotomus sepium;1;-7,5376;-110,8249969;Least Concern;Besar;
-1;Makam Bonoloyo;Cipoh Kacat;Aegithina tiphia;1;-7,5376;-110,8249969;Least Concern;Besar;Cipoh kacat_Aegithina tiphia.jpg
-1;Makam Bonoloyo;Cucak Kutilang;Pycnonotus aurigaster;12;-7,5376;-110,8249969;Least Concern;Besar;34. cucak kutilang.jpg
-1;Makam Bonoloyo;Gemak Loreng;Turnix suscitator;2;-7,5376;-110,8249969;Least Concern;Besar;40. gemak loreng.jpg
-1;Makam Bonoloyo;Burung-madu Sriganti;Nectarinia jugularis;8;-7,5376;-110,8249969;Least Concern;Besar;30. sriganti jantan.jpg
-1;Makam Bonoloyo;Walet Linci;Collocalia linchi;13;-7,5376;-110,8249969;Least Concern;Besar;
-1;Makam Bonoloyo;Merbah Cerucuk;Pycnonotus goiavier;8;-7,5376;-110,8249969;Least Concern;Besar;46 . merbah cerucuk.jpg
-1;Makam Bonoloyo;Perkutut Jawa;Geopelia striata;5;-7,5376;-110,8249969;Least Concern;Besar;19. perkutut jawa.jpg
-1;Makam Bonoloyo;Perenjak Padi;Prinia inornata;1;-7,5376;-110,8249969;Least Concern;Besar;16. perenjak padi.jpg
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Bondol Jawa;Lonchura leucogastroides;23;-7,55511;-110,8050003;Least Concern;Besar;23. bondol jawa.jpg
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Bondol Peking;Lonchura punctulata;27;-7,55511;-110,8050003;Least Concern;Besar;22. bondol peking.jpg
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Burung-gereja Erasia;Passer montanus;38;-7,55511;-110,8050003;Least Concern;Besar;32. gereja erasia.jpg
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Cabai Jawa;Dicaeum trochileum;11;-7,55511;-110,8050003;Least Concern;Besar;21. cabai jawa jantan.jpg
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Cekakak Jawa;Halcyon cyanoventris;3;-7,55511;-110,8050003;Least Concern;Besar;Cekakak Jawa_Halcyon cyanoventris.jpg
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Cekakak Sungai;Todirhamphus chloris;3;-7,55511;-110,8050003;Least Concern;Besar;Cekakak Sungai_Todiramphus chloris.jpg
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Cipoh Kacat;Aegithina tiphia;4;-7,55511;-110,8050003;Least Concern;Besar;Cipoh kacat_Aegithina tiphia.jpg
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Cucak Kutilang;Pycnonotus aurigaster;40;-7,55511;-110,8050003;Least Concern;Besar;34. cucak kutilang.jpg
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Cucak Meranti;Chloropsis cochinchinensis;1;-7,55511;-110,8050003;Endangered;Besar;
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Kekep Babi;Artamus leucorynchus;2;-7,55511;-110,8050003;Least Concern;Besar;Kekep Babi_Artamus leucorynchus.jpg
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Burung-madu Sriganti;Nectarinia jugularis;9;-7,55511;-110,8050003;Least Concern;Besar;30. sriganti jantan.jpg
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Walet Linci;Collocalia linchi;32;-7,55511;-110,8050003;Least Concern;Besar;
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Madu Kelapa;Anthreptes malacensis;5;-7,55511;-110,8050003;Least Concern;Besar;31. madu kelapa jantan.jpg
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Sepah Kecil;Pericrocotus cinnamomeus;8;-7,55511;-110,8050003;Least Concern;Besar;Sepah Kecil_Pericrocotus cinnamomeus.jpg
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Perkutut Jawa;Geopelia striata;8;-7,55511;-110,8050003;Least Concern;Besar;19. perkutut jawa.jpg
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Pijantung Kecil;Arachnothera longirostra;1;-7,55511;-110,8050003;Least Concern;Besar;
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Kacamata Biasa;Zosterops palpebrosus;4;-7,55511;-110,8050003;Least Concern;Besar;
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Takur Ungkut-ungkut;Megalaima haemacephala;4;-7,55511;-110,8050003;Least Concern;Besar;29. takur ungkut ungkut.jpg
-2;Stadiun Manahan dan Taman Selatan Stadiun Manahan;Tekukur Biasa;Spilopelia chinensis;3;-7,55511;-110,8050003;Least Concern;Besar;18. tekukur biasa.jpg
-3;Taman Balekambang dan Taman Pembibitan;Bondol Peking;Lonchura punctulata;6;-7,552470278;-110,8069992;Least Concern;Besar;22. bondol peking.jpg
-3;Taman Balekambang dan Taman Pembibitan;Cabai Jawa;Dicaeum trochileum;4;-7,552470278;-110,8069992;Least Concern;Besar;21. cabai jawa jantan.jpg
-3;Taman Balekambang dan Taman Pembibitan;Cekakak Jawa;Halcyon cyanoventris;2;-7,552470278;-110,8069992;Least Concern;Besar;Cekakak Jawa_Halcyon cyanoventris.jpg
-3;Taman Balekambang dan Taman Pembibitan;Cinenen Jawa;Orthotomus sepium;1;-7,552470278;-110,8069992;Least Concern;Besar;
-3;Taman Balekambang dan Taman Pembibitan;Cucak Kutilang;Pycnonotus aurigaster;5;-7,552470278;-110,8069992;Least Concern;Besar;34. cucak kutilang.jpg
-3;Taman Balekambang dan Taman Pembibitan;Layang-layang Asia;Hirundo rustica;7;-7,552470278;-110,8069992;Least Concern;Besar;27. layang layang asia.jpg
-3;Taman Balekambang dan Taman Pembibitan;Walet Linci;Collocalia linchi;3;-7,552470278;-110,8069992;Least Concern;Besar;
-3;Taman Balekambang dan Taman Pembibitan;Merbah Cerucuk;Pycnonotus goiavier;4;-7,552470278;-110,8069992;Least Concern;Besar;42 . merbah cerucuk.jpg
-3;Taman Balekambang dan Taman Pembibitan;Kacamata Biasa;Zosterops palpebrosus;2;-7,552470278;-110,8069992;Least Concern;Besar;
-4;Taman Bantaran Sungai Pepe (Bagian Utara);Bondol Peking;Lonchura punctulata;2;-7,549330278;-110,8180008;Least Concern;Besar;22. bondol peking.jpg
-4;Taman Bantaran Sungai Pepe (Bagian Utara);Burung-gereja Erasia;Passer montanus;8;-7,549330278;-110,8180008;Least Concern;Besar;32. gereja erasia.jpg
-4;Taman Bantaran Sungai Pepe (Bagian Utara);Cabai Jawa;Dicaeum trochileum;1;-7,549330278;-110,8180008;Least Concern;Besar;21. cabai jawa jantan.jpg
-4;Taman Bantaran Sungai Pepe (Bagian Utara);Cekakak Jawa;Halcyon cyanoventris;1;-7,549330278;-110,8180008;Least Concern;Besar;Cekakak Jawa_Halcyon cyanoventris.jpg
-4;Taman Bantaran Sungai Pepe (Bagian Utara);Cinenen Pisang;Orthotomus sutorius;1;-7,549330278;-110,8180008;Least Concern;Besar;13. cinenen pisang.jpg
-4;Taman Bantaran Sungai Pepe (Bagian Utara);Burung-madu Sriganti;Nectarinia jugularis;2;-7,549330278;-110,8180008;Least Concern;Besar;30. sriganti jantan.jpg
-4;Taman Bantaran Sungai Pepe (Bagian Utara);Kuntul Kecil;Egretta garzetta;1;-7,549330278;-110,8180008;Least Concern;Besar;Kuntul Kecil_Egretta garzetta.jpg
-4;Taman Bantaran Sungai Pepe (Bagian Utara);Walet Linci;Collocalia linchi;12;-7,549330278;-110,8180008;Least Concern;Besar;
-4;Taman Bantaran Sungai Pepe (Bagian Utara);Merbah Cerucuk;Pycnonotus goiavier;2;-7,549330278;-110,8180008;Least Concern;Besar;44 . merbah cerucuk.jpg
-4;Taman Bantaran Sungai Pepe (Bagian Utara);Tekukur Biasa;Spilopelia chinensis;1;-7,549330278;-110,8180008;Least Concern;Besar;18. tekukur biasa.jpg
-5;Taman Monumen 45 Banjarsari;Bondol Peking;Lonchura punctulata;29;-7,56047;-110,8259964;Least Concern;Besar;22. bondol peking.jpg
-5;Taman Monumen 45 Banjarsari;Burung-gereja Erasia;Passer montanus;14;-7,56047;-110,8259964;Least Concern;Besar;32. gereja erasia.jpg
-5;Taman Monumen 45 Banjarsari;Cabai Jawa;Dicaeum trochileum;8;-7,56047;-110,8259964;Least Concern;Besar;21. cabai jawa jantan.jpg
-5;Taman Monumen 45 Banjarsari;Cucak Kutilang;Pycnonotus aurigaster;19;-7,56047;-110,8259964;Least Concern;Besar;34. cucak kutilang.jpg
-5;Taman Monumen 45 Banjarsari;Walet Linci;Collocalia linchi;12;-7,56047;-110,8259964;Least Concern;Besar;
-5;Taman Monumen 45 Banjarsari;Merbah Cerucuk;Pycnonotus goiavier;1;-7,56047;-110,8259964;Least Concern;Besar;37 . merbah cerucuk.jpg
-5;Taman Monumen 45 Banjarsari;Perkutut Jawa;Geopelia striata;6;-7,56047;-110,8259964;Least Concern;Besar;19. perkutut jawa.jpg
-5;Taman Monumen 45 Banjarsari;Takur Ungkut-ungkut;Megalaima haemacephala;1;-7,56047;-110,8259964;Least Concern;Besar;29. takur ungkut ungkut.jpg
-5;Taman Monumen 45 Banjarsari;Tekukur Biasa;Spilopelia chinensis;4;-7,56047;-110,8259964;Least Concern;Besar;18. tekukur biasa.jpg
-6;Kawasan Taman Jurug;Bondol Jawa;Lonchura leucogastroides;20;-7,56571;-110,861;Least Concern;Besar;23. bondol jawa.jpg
-6;Kawasan Taman Jurug;Cabai Jawa;Dicaeum trochileum;2;-7,56571;-110,861;Least Concern;Besar;21. cabai jawa jantan.jpg
-6;Kawasan Taman Jurug;Cekakak Sungai;Todirhamphus chloris;3;-7,56571;-110,861;Least Concern;Besar;Cekakak Sungai_Todiramphus chloris.jpg
-6;Kawasan Taman Jurug;Cinenen Jawa;Orthotomus sepium;1;-7,56571;-110,861;Least Concern;Besar;
-6;Kawasan Taman Jurug;Cipoh Kacat;Aegithina tiphia;2;-7,56571;-110,861;Least Concern;Besar;Cipoh kacat_Aegithina tiphia.jpg
-6;Kawasan Taman Jurug;Cucak Kutilang;Pycnonotus aurigaster;6;-7,56571;-110,861;Least Concern;Besar;34. cucak kutilang.jpg
-6;Kawasan Taman Jurug;Burung-madu Sriganti;Nectarinia jugularis;3;-7,56571;-110,861;Least Concern;Besar;30. sriganti jantan.jpg
-6;Kawasan Taman Jurug;Walet Linci;Collocalia linchi;13;-7,56571;-110,861;Least Concern;Besar;
-6;Kawasan Taman Jurug;Perkutut Jawa;Geopelia striata;8;-7,56571;-110,861;Least Concern;Besar;19. perkutut jawa.jpg
-7;Kompleks UNS;Bondol Jawa;Lonchura leucogastroides;6;-7,55831;-110,8570022;Least Concern;Besar;23. bondol jawa.jpg
-7;Kompleks UNS;Bondol Peking;Lonchura punctulata;12;-7,55831;-110,8570022;Least Concern;Besar;22. bondol peking.jpg
-7;Kompleks UNS;Burung-gereja Erasia;Passer montanus;18;-7,55831;-110,8570022;Least Concern;Besar;32. gereja erasia.jpg
-7;Kompleks UNS;Cabai Jawa;Dicaeum trochileum;11;-7,55831;-110,8570022;Least Concern;Besar;21. cabai jawa jantan.jpg
-7;Kompleks UNS;Raja-udang Meninting;Alcedo meninting;1;-7,55831;-110,8570022;Least Concern;Besar;Raja-udang Meninting_Alcedo meninting.jpg
-7;Kompleks UNS;Cekakak Sungai;Todirhamphus chloris;1;-7,55831;-110,8570022;Least Concern;Besar;Cekakak Sungai_Todiramphus chloris.jpg
-7;Kompleks UNS;Cinenen Pisang;Orthotomus sutorius;6;-7,55831;-110,8570022;Least Concern;Besar;13. cinenen pisang.jpg
-7;Kompleks UNS;Cipoh Kacat;Aegithina tiphia;4;-7,55831;-110,8570022;Least Concern;Besar;Cipoh kacat_Aegithina tiphia.jpg
-7;Kompleks UNS;Cucak Kutilang;Pycnonotus aurigaster;27;-7,55831;-110,8570022;Least Concern;Besar;34. cucak kutilang.jpg
-7;Kompleks UNS;Kerak Kerbau;Acridotheres javanicus;1;-7,55831;-110,8570022;Vulnerable;Besar;39. kerak kerbau.jpg
-7;Kompleks UNS;Burung-madu Sriganti;Nectarinia jugularis;8;-7,55831;-110,8570022;Least Concern;Besar;30. sriganti jantan.jpg
-7;Kompleks UNS;Walet Linci;Collocalia linchi;18;-7,55831;-110,8570022;Least Concern;Besar;
-7;Kompleks UNS;Madu Kelapa;Anthreptes malacensis;2;-7,55831;-110,8570022;Least Concern;Besar;31. madu kelapa jantan.jpg
-7;Kompleks UNS;Merbah Cerucuk;Pycnonotus goiavier;4;-7,55831;-110,8570022;Least Concern;Besar;39 . merbah cerucuk.jpg
-7;Kompleks UNS;Perkutut Jawa;Geopelia striata;8;-7,55831;-110,8570022;Least Concern;Besar;19. perkutut jawa.jpg
-7;Kompleks UNS;Takur Ungkut-ungkut;Megalaima haemacephala;1;-7,55831;-110,8570022;Least Concern;Besar;29. takur ungkut ungkut.jpg
-7;Kompleks UNS;Tekukur Biasa;Spilopelia chinensis;2;-7,55831;-110,8570022;Least Concern;Besar;18. tekukur biasa.jpg
-8;Taman Sekartaji;Bondol Peking;Lonchura punctulata;12;-7,55485;-110,8440017;Least Concern;Besar;22. bondol peking.jpg
-8;Taman Tirtonadi;Bondol Peking;Lonchura punctulata;4;-7,55485;-110,8440017;Least Concern;Besar;22. bondol peking.jpg
-8;Taman Sekartaji;Burung-gereja Erasia;Passer montanus;8;-7,55485;-110,8440017;Least Concern;Besar;32. gereja erasia.jpg
-8;Taman Tirtonadi;Burung-gereja Erasia;Passer montanus;2;-7,55485;-110,8440017;Least Concern;Besar;32. gereja erasia.jpg
-8;Taman Tirtonadi;Cabai Jawa;Dicaeum trochileum;1;-7,55485;-110,8440017;Least Concern;Besar;21. cabai jawa jantan.jpg
-8;Taman Sekartaji;Cekakak Sungai;Todirhamphus chloris;2;-7,55485;-110,8440017;Least Concern;Besar;Cekakak Sungai_Todiramphus chloris.jpg
-8;Taman Sekartaji;Cucak Kutilang;Pycnonotus aurigaster;6;-7,55485;-110,8440017;Least Concern;Besar;34. cucak kutilang.jpg
-8;Taman Tirtonadi;Cucak Kutilang;Pycnonotus aurigaster;2;-7,55485;-110,8440017;Least Concern;Besar;34. cucak kutilang.jpg
-8;Taman Sekartaji;Burung-madu Sriganti;Nectarinia jugularis;5;-7,55485;-110,8440017;Least Concern;Besar;30. sriganti jantan.jpg
-8;Taman Sekartaji;Walet Linci;Collocalia linchi;9;-7,55485;-110,8440017;Least Concern;Besar;
-8;Taman Tirtonadi;Walet Linci;Collocalia linchi;9;-7,55485;-110,8440017;Least Concern;Besar;
-8;Taman Sekartaji;Merbah Cerucuk;Pycnonotus goiavier;4;-7,55485;-110,8440017;Least Concern;Besar;41 . merbah cerucuk.jpg
-8;Taman Sekartaji;Perkutut Jawa;Geopelia striata;2;-7,55485;-110,8440017;Least Concern;Besar;19. perkutut jawa.jpg
-9;Jalan Urip Sumoharjo;Bondol Jawa;Lonchura leucogastroides;4;-7,56359;-110,8349992;Least Concern;Besar;23. bondol jawa.jpg
-9;Jalan Urip Sumoharjo;Bondol Peking;Lonchura punctulata;3;-7,56359;-110,8349992;Least Concern;Besar;22. bondol peking.jpg
-9;Jalan Urip Sumoharjo;Burung-gereja Erasia;Passer montanus;6;-7,56359;-110,8349992;Least Concern;Besar;32. gereja erasia.jpg
-9;Jalan Urip Sumoharjo;Cabai Jawa;Dicaeum trochileum;1;-7,56359;-110,8349992;Least Concern;Besar;21. cabai jawa jantan.jpg
-9;Jalan Urip Sumoharjo;Walet Linci;Collocalia linchi;8;-7,56359;-110,8349992;Least Concern;Besar;
-10;Urban Forest Pucangsawit;Bondol Jawa;Lonchura leucogastroides;10;-7,57206;-110,8489989;Least Concern;Besar;23. bondol jawa.jpg
-10;Urban Forest Pucangsawit;Cabai Jawa;Dicaeum trochileum;2;-7,57206;-110,8489989;Least Concern;Besar;21. cabai jawa jantan.jpg
-10;Urban Forest Pucangsawit;Cekakak Sungai;Todirhamphus chloris;2;-7,57206;-110,8489989;Least Concern;Besar;Cekakak Sungai_Todiramphus chloris.jpg
-10;Urban Forest Pucangsawit;Cucak Kutilang;Pycnonotus aurigaster;3;-7,57206;-110,8489989;Least Concern;Besar;34. cucak kutilang.jpg
-10;Urban Forest Pucangsawit;Burung-madu Sriganti;Nectarinia jugularis;1;-7,57206;-110,8489989;Least Concern;Besar;30. sriganti jantan.jpg
-10;Urban Forest Pucangsawit;Walet Linci;Collocalia linchi;28;-7,57206;-110,8489989;Least Concern;Besar;
-10;Urban Forest Pucangsawit;Merbah Cerucuk;Pycnonotus goiavier;4;-7,57206;-110,8489989;Least Concern;Besar;35 . merbah cerucuk.jpg
-11;Jalan Samratulangi;Cucak Kutilang;Pycnonotus aurigaster;3;-7,5604667;110,8008388;Least Concern;Besar;34. cucak kutilang.jpg
-11;Jalan Samratulangi;Walet Linci;Collocalia linchi;3;-7,5604667;110,8008388;Least Concern;Besar;
-11;Jalan Samratulangi;Cabai Jawa;Dicaeum trochileum;3;-7,5604667;110,8008388;Least Concern;Besar;21. cabai jawa jantan.jpg
-11;Jalan Samratulangi;Burung-gereja Erasia;Passer montanus;8;-7,5604667;110,8008388;Least Concern;Besar;32. gereja erasia.jpg
-11;Jalan Samratulangi;Cinenen Pisang;Orthotomus sutorius;1;-7,5604667;110,8008388;Least Concern;Besar;13. cinenen pisang.jpg
-11;Jalan Samratulangi;Tekukur Biasa;Spilopelia chinensis;1;-7,5604667;110,8008388;Least Concern;Besar;18. tekukur biasa.jpg
-11;Jalan Samratulangi;Layang-layang Asia;Hirundo rustica;9;-7,5604667;110,8008388;Least Concern;Besar;27. layang layang asia.jpg
-11;Jalan Samratulangi;Burung-madu Kelapa;Anthreptes malacensis;1;-7,5604667;110,8008388;Least Concern;Besar;31. madu kelapa jantan.jpg
-11;Jalan Samratulangi;Bondol Jawa;Lonchura leucogastroides;4;-7,5604667;110,8008388;Least Concern;Besar;23. bondol jawa.jpg
-11;Jalan Samratulangi;Bondol Peking;Lonchura punctulata;5;-7,5604667;110,8008388;Least Concern;Besar;22. bondol peking.jpg
-12;Kompleks PPG PGSD PGPaud UNS;Cabai Jawa;Dicaeum trochileum;3;-7,561826732;110,7898623;Least Concern;Besar;21. cabai jawa jantan.jpg
-12;Kompleks PPG PGSD PGPaud UNS;Cinenen Pisang;Orthotomus sutorius;1;-7,561826732;110,7898623;Least Concern;Besar;13. cinenen pisang.jpg
-12;Kompleks PPG PGSD PGPaud UNS;Cinenen Jawa;Orthotomus sepium;1;-7,561826732;110,7898623;Least Concern;Besar;
-12;Kompleks PPG PGSD PGPaud UNS;Tekukur Biasa;Spilopelia chinensis;4;-7,561826732;110,7898623;Least Concern;Besar;18. tekukur biasa.jpg
-12;Kompleks PPG PGSD PGPaud UNS;Perkutut Jawa;Geopelia striata;2;-7,561826732;110,7898623;Least Concern;Besar;19. perkutut jawa.jpg
-12;Kompleks PPG PGSD PGPaud UNS;Kerak Kerbau;Acridotheres javanicus;1;-7,561826732;110,7898623;Vulnerable;Besar;39. kerak kerbau.jpg
-12;Kompleks PPG PGSD PGPaud UNS;Caladi ulam;Dendrocopos macei;1;-7,561826732;110,7898623;Least Concern;Besar;
-12;Kompleks PPG PGSD PGPaud UNS;Bondol Jawa;Lonchura leucogastroides;6;-7,561826732;110,7898623;Least Concern;Besar;23. bondol jawa.jpg
-12;Kompleks PPG PGSD PGPaud UNS;Bondol Peking;Lonchura punctulata;5;-7,561826732;110,7898623;Least Concern;Besar;22. bondol peking.jpg
-12;Kompleks PPG PGSD PGPaud UNS;Layang-layang Asia;Hirundo rustica;7;-7,561826732;110,7898623;Least Concern;Besar;27. layang layang asia.jpg
-12;Kompleks PPG PGSD PGPaud UNS;Walet Linci;Collocalia linchi;5;-7,561826732;110,7898623;Least Concern;Besar;
-12;Kompleks PPG PGSD PGPaud UNS;Takur Ungkut-ungkut;Megalaima haemacephala;2;-7,561826732;110,7898623;Least Concern;Besar;29. takur ungkut ungkut.jpg
-12;Kompleks PPG PGSD PGPaud UNS;Burung-madu Kelapa;Anthreptes malacensis;1;-7,561826732;110,7898623;Least Concern;Besar;31. madu kelapa jantan.jpg
-12;Kompleks PPG PGSD PGPaud UNS;Cucak Kutilang;Pycnonotus aurigaster;6;-7,561826732;110,7898623;Least Concern;Besar;34. cucak kutilang.jpg
-12;Kompleks PPG PGSD PGPaud UNS;Burung-gereja Erasia;Passer montanus;11;-7,561826732;110,7898623;Least Concern;Besar;32. gereja erasia.jpg
-13;Lapangan Kartopuran;Bondol Jawa;Lonchura leucogastroides;4;-7,572377062;110,8118146;Least Concern;Besar;23. bondol jawa.jpg
-13;Lapangan Kartopuran;Burung-gereja Erasia;Passer montanus;6;-7,572377062;110,8118146;Least Concern;Besar;32. gereja erasia.jpg
-13;Lapangan Kartopuran;Burung-madu Sriganti;Cinnyris jugularis;1;-7,572377062;110,8118146;Least Concern;Besar;30. sriganti jantan.jpg
-13;Lapangan Kartopuran;Cabai Jawa;Dicaeum trochileum;4;-7,572377062;110,8118146;Least Concern;Besar;21. cabai jawa jantan.jpg
-13;Lapangan Kartopuran;Cekakak sungai;Todiramphus chloris;1;-7,572377062;110,8118146;Least Concern;Besar;Cekakak Sungai_Todiramphus chloris.jpg
-13;Lapangan Kartopuran;Cinenen Pisang;Orthotomus sutorius;3;-7,572377062;110,8118146;Least Concern;Besar;13. cinenen pisang.jpg
-13;Lapangan Kartopuran;Cipoh Kacat;Aegithina tiphia;2;-7,572377062;110,8118146;Least Concern;Besar;Cipoh kacat_Aegithina tiphia.jpg
-13;Lapangan Kartopuran;Cucak Kutilang;Pycnonotus aurigaster;6;-7,572377062;110,8118146;Least Concern;Besar;34. cucak kutilang.jpg
-13;Lapangan Kartopuran;Gemak Loreng;Turnix suscitator;1;-7,572377062;110,8118146;Least Concern;Besar;40. gemak loreng.jpg
-13;Lapangan Kartopuran;Kareo Padi;Amaurornis phoenicurus;2;-7,572377062;110,8118146;Least Concern;Besar;Kareo Padi_Amaurornis phoenicurus.jpg
-13;Lapangan Kartopuran;Layang-layang Asia;Hirundo rustica;7;-7,572377062;110,8118146;Least Concern;Besar;27. layang layang asia.jpg
-13;Lapangan Kartopuran;Merbah Cerucuk;Pycnonotus goiavier;2;-7,572377062;110,8118146;Least Concern;Besar;35 . merbah cerucuk.jpg
-13;Lapangan Kartopuran;Perkutut Jawa;Geopelia striata;1;-7,572377062;110,8118146;Least Concern;Besar;19. perkutut jawa.jpg
-13;Lapangan Kartopuran;Takur Ungkut-ungkut;Megalaima haemacephala;2;-7,572377062;110,8118146;Least Concern;Besar;29. takur ungkut ungkut.jpg
-13;Lapangan Kartopuran;Walet Linci;Collocalia linchi;5;-7,572377062;110,8118146;Least Concern;Besar;
-14;Lapangan Sriwaru;Walet Linci;Collocalia linchi;4;-7,566025399;110,7906756;Least Concern;Besar;
-14;Lapangan Sriwaru;Cabai Jawa;Dicaeum trochileum;2;-7,566025399;110,7906756;Least Concern;Besar;21. cabai jawa jantan.jpg
-14;Lapangan Sriwaru;Layang-layang Asia;Hirundo rustica;8;-7,566025399;110,7906756;Least Concern;Besar;27. layang layang asia.jpg
-14;Lapangan Sriwaru;Cucak Kutilang;Pycnonotus aurigaster;1;-7,566025399;110,7906756;Least Concern;Besar;34. cucak kutilang.jpg
-14;Lapangan Sriwaru;Bondol Jawa;Lonchura leucogastroides;3;-7,566025399;110,7906756;Least Concern;Besar;23. bondol jawa.jpg
-14;Lapangan Sriwaru;Burung-gereja Erasia;Passer montanus;11;-7,566025399;110,7906756;Least Concern;Besar;32. gereja erasia.jpg
-15;Stadion Sriwedari;Burung-gereja Erasia;Passer montanus;11;-7,569296546;110,8120694;Least Concern;Besar;32. gereja erasia.jpg
-15;Stadion Sriwedari;Burung-madu Sriganti;Cinnyris jugularis;2;-7,569296546;110,8120694;Least Concern;Besar;30. sriganti jantan.jpg
-15;Stadion Sriwedari;Cabai Jawa;Dicaeum trochileum;4;-7,569296546;110,8120694;Least Concern;Besar;21. cabai jawa jantan.jpg
-15;Stadion Sriwedari;Caladi ulam;Dendrocopos macei;1;-7,569296546;110,8120694;Least Concern;Besar;
-15;Stadion Sriwedari;Cekakak sungai;Todiramphus chloris;2;-7,569296546;110,8120694;Least Concern;Besar;Cekakak Sungai_Todiramphus chloris.jpg
-15;Stadion Sriwedari;Cinenen Pisang;Orthotomus sutorius;2;-7,569296546;110,8120694;Least Concern;Besar;13. cinenen pisang.jpg
-15;Stadion Sriwedari;Cipoh Kacat;Aegithina tiphia;2;-7,569296546;110,8120694;Least Concern;Besar;Cipoh kacat_Aegithina tiphia.jpg
-15;Stadion Sriwedari;Cucak Kutilang;Pycnonotus aurigaster;6;-7,569296546;110,8120694;Least Concern;Besar;34. cucak kutilang.jpg
-15;Stadion Sriwedari;Layang-layang Asia;Hirundo rustica;8;-7,569296546;110,8120694;Least Concern;Besar;27. layang layang asia.jpg
-15;Stadion Sriwedari;Layang-layang Batu;Hirundo tahitica;2;-7,569296546;110,8120694;Least Concern;Besar;26. layang batu.jpg
-15;Stadion Sriwedari;Merbah Cerucuk;Pycnonotus goiavier;1;-7,569296546;110,8120694;Least Concern;Besar;35 . merbah cerucuk.jpg
-15;Stadion Sriwedari;Walet Linci;Collocalia linchi;8;-7,569296546;110,8120694;Least Concern;Besar;
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Bondol Jawa;Lonchura leucogastroides;6;-7,593708853;110,8328615;Least Concern;Besar;23. bondol jawa.jpg
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Bondol Haji;Lonchura maja;2;-7,593708853;110,8328615;Least Concern;Besar;24. bondol haji.jpg
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Bondol Peking;Lonchura punctulata;4;-7,593708853;110,8328615;Least Concern;Besar;22. bondol peking.jpg
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Burung-gereja Erasia;Passer montanus;18;-7,593708853;110,8328615;Least Concern;Besar;32. gereja erasia.jpg
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Burung-madu Sriganti;Cinnyris jugularis;2;-7,593708853;110,8328615;Least Concern;Besar;30. sriganti jantan.jpg
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Cabai Jawa;Dicaeum trochileum;4;-7,593708853;110,8328615;Least Concern;Besar;21. cabai jawa jantan.jpg
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Cinenen Pisang;Orthotomus sutorius;3;-7,593708853;110,8328615;Least Concern;Besar;13. cinenen pisang.jpg
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Cipoh Kacat;Aegithina tiphia;3;-7,593708853;110,8328615;Least Concern;Besar;Cipoh kacat_Aegithina tiphia.jpg
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Gemak Loreng;Turnix suscitator;1;-7,593708853;110,8328615;Least Concern;Besar;40. gemak loreng.jpg
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Kekep Babi;Artamus leucorynchus;2;-7,593708853;110,8328615;Least Concern;Besar;Kekep Babi_Artamus leucorynchus.jpg
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Kerak Kerbau;Acridotheres javanicus;5;-7,593708853;110,8328615;Vulnerable;Besar;39. kerak kerbau.jpg
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Layang-layang Asia;Hirundo rustica;15;-7,593708853;110,8328615;Least Concern;Besar;27. layang layang asia.jpg
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Layang-layang Batu;Hirundo tahitica;1;-7,593708853;110,8328615;Least Concern;Besar;26. layang batu.jpg
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Merbah Cerucuk;Pycnonotus goiavier;2;-7,593708853;110,8328615;Least Concern;Besar;35 . merbah cerucuk.jpg
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Perkutut Jawa;Geopelia striata;6;-7,593708853;110,8328615;Least Concern;Besar;19. perkutut jawa.jpg
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Takur Ungkut-ungkut;Megalaima haemacephala;1;-7,593708853;110,8328615;Least Concern;Besar;29. takur ungkut ungkut.jpg
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Tekukur Biasa;Spilopelia chinensis;4;-7,593708853;110,8328615;Least Concern;Besar;18. tekukur biasa.jpg
-16;Alun - Alun Kidul dan Taman Seputaran Alun - Alun Selatan;Walet Linci;Collocalia linchi;7;-7,593708853;110,8328615;Least Concern;Besar;
-17;Alun - Alun Utara;Bondol Jawa;Lonchura leucogastroides;5;-7,575002758;110,827885;Least Concern;Besar;23. bondol jawa.jpg
-17;Alun - Alun Utara;Bondol Peking;Lonchura punctulata;4;-7,575002758;110,827885;Least Concern;Besar;22. bondol peking.jpg
-17;Alun - Alun Utara;Burung-gereja Erasia;Passer montanus;12;-7,575002758;110,827885;Least Concern;Besar;32. gereja erasia.jpg
-17;Alun - Alun Utara;Cabai Jawa;Dicaeum trochileum;3;-7,575002758;110,827885;Least Concern;Besar;21. cabai jawa jantan.jpg
-17;Alun - Alun Utara;Cinenen Pisang;Orthotomus sutorius;2;-7,575002758;110,827885;Least Concern;Besar;13. cinenen pisang.jpg
-17;Alun - Alun Utara;Cipoh Kacat;Aegithina tiphia;3;-7,575002758;110,827885;Least Concern;Besar;Cipoh kacat_Aegithina tiphia.jpg
-17;Alun - Alun Utara;Cucak Kutilang;Pycnonotus aurigaster;4;-7,575002758;110,827885;Least Concern;Besar;34. cucak kutilang.jpg
-17;Alun - Alun Utara;Kekep Babi;Artamus leucorynchus;2;-7,575002758;110,827885;Least Concern;Besar;Kekep Babi_Artamus leucorynchus.jpg
-17;Alun - Alun Utara;Layang-layang Asia;Hirundo rustica;12;-7,575002758;110,827885;Least Concern;Besar;27. layang layang asia.jpg
-17;Alun - Alun Utara;Perkutut Jawa;Geopelia striata;3;-7,575002758;110,827885;Least Concern;Besar;19. perkutut jawa.jpg
-17;Alun - Alun Utara;Tekukur Biasa;Spilopelia chinensis;4;-7,575002758;110,827885;Least Concern;Besar;18. tekukur biasa.jpg
-17;Alun - Alun Utara;Walet Linci;Collocalia linchi;6;-7,575002758;110,827885;Least Concern;Besar;
-18;Sepadan Sungai Pelem Wulung;Bondol Jawa;Lonchura leucogastroides;4;-7,591359429;110,8223831;Least Concern;Besar;23. bondol jawa.jpg
-18;Sepadan Sungai Pelem Wulung;Layang-layang Asia;Hirundo rustica;5;-7,591359429;110,8223831;Least Concern;Besar;27. layang layang asia.jpg
-18;Sepadan Sungai Pelem Wulung;Tekukur Biasa;Spilopelia chinensis;2;-7,591359429;110,8223831;Least Concern;Besar;18. tekukur biasa.jpg
-18;Sepadan Sungai Pelem Wulung;Burung-gereja Erasia;Passer montanus;8;-7,591359429;110,8223831;Least Concern;Besar;32. gereja erasia.jpg
-18;Sepadan Sungai Pelem Wulung;Cinenen Pisang;Orthotomus sutorius;2;-7,591359429;110,8223831;Least Concern;Besar;13. cinenen pisang.jpg
-18;Sepadan Sungai Pelem Wulung;Cucak Kutilang;Pycnonotus aurigaster;5;-7,591359429;110,8223831;Least Concern;Besar;34. cucak kutilang.jpg
-18;Sepadan Sungai Pelem Wulung;Bondol Peking;Lonchura punctulata;3;-7,591359429;110,8223831;Least Concern;Besar;22. bondol peking.jpg
-18;Sepadan Sungai Pelem Wulung;Walet Linci;Collocalia linchi;3;-7,591359429;110,8223831;Least Concern;Besar;
-18;Sepadan Sungai Pelem Wulung;Cekakak sungai;Todiramphus chloris;2;-7,591359429;110,8223831;Least Concern;Besar;Cekakak Sungai_Todiramphus chloris.jpg
-18;Sepadan Sungai Pelem Wulung;Merbah Cerucuk;Pycnonotus goiavier;1;-7,591359429;110,8223831;Least Concern;Besar;35 . merbah cerucuk.jpg
-18;Sepadan Sungai Pelem Wulung;Cekakak Jawa;Halcyon cyanoventris;1;-7,591359429;110,8223831;Least Concern;Besar;Cekakak Jawa_Halcyon cyanoventris.jpg
-18;Sepadan Sungai Pelem Wulung;Kuntul Kecil;Egretta garzetta;2;-7,591359429;110,8223831;Least Concern;Besar;Kuntul Kecil_Egretta garzetta.jpg
-18;Sepadan Sungai Pelem Wulung;Wiwik Kelabu;Cacomantis merulinus;1;-7,591359429;110,8223831;Least Concern;Besar;20. wiwik kelabu.jpg
-18;Sepadan Sungai Pelem Wulung;Raja-udang Biru;Alcedo coerulescens;1;-7,591359429;110,8223831;Least Concern;Besar;Raja-udang Biru_Alcedo coerulescens.jpg
-18;Sepadan Sungai Pelem Wulung;Kareo Padi;Amaurornis phoenicurus;1;-7,591359429;110,8223831;Least Concern;Besar;Kareo Padi_Amaurornis phoenicurus.jpg
-19;Taman Benteng Vastenburg;Bondol Jawa;Lonchura leucogastroides;11;-7,572475;110,832495;Least Concern;Besar;23. bondol jawa.jpg
-19;Taman Benteng Vastenburg;Burung-gereja Erasia;Passer montanus;5;-7,572475;110,832495;Least Concern;Besar;32. gereja erasia.jpg
-19;Taman Benteng Vastenburg;Cabai Jawa;Dicaeum trochileum;2;-7,572475;110,832495;Least Concern;Besar;21. cabai jawa jantan.jpg
-19;Taman Benteng Vastenburg;Cucak Kutilang;Pycnonotus aurigaster;3;-7,572475;110,832495;Least Concern;Besar;34. cucak kutilang.jpg
-19;Taman Benteng Vastenburg;Layang-layang Asia;Hirundo rustica;7;-7,572475;110,832495;Least Concern;Besar;27. layang layang asia.jpg
-19;Taman Benteng Vastenburg;Tekukur Biasa;Spilopelia chinensis;4;-7,572475;110,832495;Least Concern;Besar;18. tekukur biasa.jpg
-20;Sepadan Sungai Bengawan Solo (Semanggi);Burung-gereja Erasia;Passer montanus;6;-7,58841166;110,8404787;Least Concern;Besar;32. gereja erasia.jpg
-20;Sepadan Sungai Bengawan Solo (Semanggi);Cinenen Pisang;Orthotomus sutorius;3;-7,58841166;110,8404787;Least Concern;Besar;13. cinenen pisang.jpg
-20;Sepadan Sungai Bengawan Solo (Semanggi);Layang-layang Asia;Hirundo rustica;7;-7,58841166;110,8404787;Least Concern;Besar;27. layang layang asia.jpg
-20;Sepadan Sungai Bengawan Solo (Semanggi);Cucak Kutilang;Pycnonotus aurigaster;4;-7,58841166;110,8404787;Least Concern;Besar;34. cucak kutilang.jpg
-20;Sepadan Sungai Bengawan Solo (Semanggi);Kuntul Kecil;Egretta garzetta;2;-7,58841166;110,8404787;Least Concern;Besar;Kuntul Kecil_Egretta garzetta.jpg
-20;Sepadan Sungai Bengawan Solo (Semanggi);Cekakak sungai;Todiramphus chloris;1;-7,58841166;110,8404787;Least Concern;Besar;Cekakak Sungai_Todiramphus chloris.jpg
-20;Sepadan Sungai Bengawan Solo (Semanggi);Kareo Padi;Amaurornis phoenicurus;1;-7,58841166;110,8404787;Least Concern;Besar;Kareo Padi_Amaurornis phoenicurus.jpg
-20;Sepadan Sungai Bengawan Solo (Semanggi);Cabai Jawa;Dicaeum trochileum;2;-7,58841166;110,8404787;Least Concern;Besar;21. cabai jawa jantan.jpg
-21;Lapangan Losari;Burung-gereja Erasia;Passer montanus;9;-7,582826207;110,8391696;Least Concern;Besar;32. gereja erasia.jpg
-21;Lapangan Losari;Cucak Kutilang;Pycnonotus aurigaster;2;-7,582826207;110,8391696;Least Concern;Besar;34. cucak kutilang.jpg
-21;Lapangan Losari;Layang-layang Asia;Hirundo rustica;5;-7,582826207;110,8391696;Least Concern;Besar;27. layang layang asia.jpg
-21;Lapangan Losari;Tekukur Biasa;Spilopelia chinensis;3;-7,582826207;110,8391696;Least Concern;Besar;18. tekukur biasa.jpg
-21;Lapangan Losari;Bondol Jawa;Lonchura leucogastroides;6;-7,582826207;110,8391696;Least Concern;Besar;23. bondol jawa.jpg
-22;Taman Tirtonadi;Bondol Peking;Lonchura punctulata;4;-7,551469722;-110,8199997;Least Concern;Sedang;22. bondol peking.jpg
-22;Taman Tirtonadi;Burung-gereja Erasia;Passer montanus;2;-7,551469722;-110,8199997;Least Concern;Sedang;32. gereja erasia.jpg
-22;Taman Tirtonadi;Cabai Jawa;Dicaeum trochileum;1;-7,551469722;-110,8199997;Least Concern;Sedang;21. cabai jawa jantan.jpg
-22;Taman Tirtonadi;Cucak Kutilang;Pycnonotus aurigaster;2;-7,551469722;-110,8199997;Least Concern;Sedang;34. cucak kutilang.jpg
-22;Taman Tirtonadi;Walet Linci;Collocalia linchi;9;-7,551469722;-110,8199997;Least Concern;Sedang;
-23;Taman Jaya Wijaya;Bondol Jawa;Lonchura leucogastroides;4;-7,537099722;-110,8420028;Least Concern;Sedang;23. bondol jawa.jpg
-23;Taman Jaya Wijaya;Bondol Peking;Lonchura punctulata;4;-7,537099722;-110,8420028;Least Concern;Sedang;22. bondol peking.jpg
-23;Taman Jaya Wijaya;Burung-gereja Erasia;Passer montanus;14;-7,537099722;-110,8420028;Least Concern;Sedang;32. gereja erasia.jpg
-23;Taman Jaya Wijaya;Cabai Jawa;Dicaeum trochileum;1;-7,537099722;-110,8420028;Least Concern;Sedang;21. cabai jawa jantan.jpg
-23;Taman Jaya Wijaya;Kuntul Kecil;Egretta garzetta;1;-7,537099722;-110,8420028;Least Concern;Sedang;Kuntul Kecil_Egretta garzetta.jpg
-23;Taman Jaya Wijaya;Walet Linci;Collocalia linchi;5;-7,537099722;-110,8420028;Least Concern;Sedang;
-24;Lapangan Jajar;Layang-layang Asia;Hirundo rustica;5;-7,55603945;110,7890116;Least Concern;Sedang;27. layang layang asia.jpg
-24;Lapangan Jajar;Burung-gereja Erasia;Passer montanus;12;-7,55603945;110,7890116;Least Concern;Sedang;32. gereja erasia.jpg
-24;Lapangan Jajar;Cucak Kutilang;Pycnonotus aurigaster;2;-7,55603945;110,7890116;Least Concern;Sedang;34. cucak kutilang.jpg
-24;Lapangan Jajar;Cabai Jawa;Dicaeum trochileum;2;-7,55603945;110,7890116;Least Concern;Sedang;21. cabai jawa jantan.jpg
-24;Lapangan Jajar;Cipoh Kacat;Aegithina tiphia;2;-7,55603945;110,7890116;Least Concern;Sedang;Cipoh kacat_Aegithina tiphia.jpg
-24;Lapangan Jajar;Walet Linci;Collocalia linchi;6;-7,55603945;110,7890116;Least Concern;Sedang;
-24;Lapangan Jajar;Cinenen Pisang;Orthotomus sutorius;2;-7,55603945;110,7890116;Least Concern;Sedang;13. cinenen pisang.jpg
-24;Lapangan Jajar;Tekukur Biasa;Spilopelia chinensis;1;-7,55603945;110,7890116;Least Concern;Sedang;18. tekukur biasa.jpg
-25;Makam Kyai Ageng Henis;Layang-layang Asia;Hirundo rustica;4;-7,571304378;110,7924209;Least Concern;Sedang;27. layang layang asia.jpg
-25;Makam Kyai Ageng Henis;Cucak Kutilang;Pycnonotus aurigaster;2;-7,571304378;110,7924209;Least Concern;Sedang;34. cucak kutilang.jpg
-25;Makam Kyai Ageng Henis;Tekukur Biasa;Spilopelia chinensis;1;-7,571304378;110,7924209;Least Concern;Sedang;18. tekukur biasa.jpg
-25;Makam Kyai Ageng Henis;Burung-gereja Erasia;Passer montanus;5;-7,571304378;110,7924209;Least Concern;Sedang;32. gereja erasia.jpg
-26;Makam Jalan Veteran;Cucak Kutilang;Pycnonotus aurigaster;2;-7,5604667;110,8008388;Least Concern;Sedang;34. cucak kutilang.jpg
-26;Makam Jalan Veteran;Cinenen Pisang;Orthotomus sutorius;1;-7,5604667;110,8008388;Least Concern;Sedang;13. cinenen pisang.jpg
-26;Makam Jalan Veteran;Cabai Jawa;Dicaeum trochileum;4;-7,5604667;110,8008388;Least Concern;Sedang;21. cabai jawa jantan.jpg
-26;Makam Jalan Veteran;Tekukur Biasa;Spilopelia chinensis;1;-7,5604667;110,8008388;Least Concern;Sedang;18. tekukur biasa.jpg
-26;Makam Jalan Veteran;Perkutut Jawa;Geopelia striata;1;-7,5604667;110,8008388;Least Concern;Sedang;19. perkutut jawa.jpg
-26;Makam Jalan Veteran;Walet Linci;Collocalia linchi;6;-7,5604667;110,8008388;Least Concern;Sedang;
-26;Jalur Pejalan Kaki Jalan Slamet Riyadi Sriwedari;Bondol Peking;Lonchura punctulata;6;-7,567117906;110,8113297;Least Concern;Sedang;22. bondol peking.jpg
-26;Jalur Pejalan Kaki Jalan Slamet Riyadi Sriwedari;Layang-layang Asia;Hirundo rustica;4;-7,567117906;110,8113297;Least Concern;Sedang;27. layang layang asia.jpg
-26;Jalur Pejalan Kaki Jalan Slamet Riyadi Sriwedari;Burung-gereja Erasia;Passer montanus;12;-7,567117906;110,8113297;Least Concern;Sedang;32. gereja erasia.jpg
-26;Jalur Pejalan Kaki Jalan Slamet Riyadi Sriwedari;Cucak Kutilang;Pycnonotus aurigaster;4;-7,567117906;110,8113297;Least Concern;Sedang;34. cucak kutilang.jpg
-26;Jalur Pejalan Kaki Jalan Slamet Riyadi Sriwedari;Cabai Jawa;Dicaeum trochileum;2;-7,567117906;110,8113297;Least Concern;Sedang;21. cabai jawa jantan.jpg
-26;Jalur Pejalan Kaki Jalan Slamet Riyadi Sriwedari;Tekukur Biasa;Spilopelia chinensis;6;-7,567117906;110,8113297;Least Concern;Sedang;18. tekukur biasa.jpg
-26;Jalur Pejalan Kaki Jalan Slamet Riyadi Sriwedari;Cinenen Pisang;Orthotomus sutorius;1;-7,567117906;110,8113297;Least Concern;Sedang;13. cinenen pisang.jpg
-26;Jalur Pejalan Kaki Jalan Slamet Riyadi Sriwedari;Merbah Cerucuk;Pycnonotus goiavier;4;-7,567117906;110,8113297;Least Concern;Sedang;35 . merbah cerucuk.jpg
-27;Lapangan Kenteng;Bondol Jawa;Lonchura leucogastroides;4;-7,593708853;110,8328615;Least Concern;Sedang;23. bondol jawa.jpg
-27;Lapangan Kenteng;Burung-gereja Erasia;Passer montanus;7;-7,593708853;110,8328615;Least Concern;Sedang;32. gereja erasia.jpg
-27;Lapangan Kenteng;Cucak Kutilang;Pycnonotus aurigaster;2;-7,593708853;110,8328615;Least Concern;Sedang;34. cucak kutilang.jpg
-27;Lapangan Kenteng;Tekukur Biasa;Spilopelia chinensis;1;-7,593708853;110,8328615;Least Concern;Sedang;18. tekukur biasa.jpg
-27;Lapangan Kenteng;Walet Linci;Collocalia linchi;4;-7,593708853;110,8328615;Least Concern;Sedang;
-27;Lapangan Kenteng;Layang-layang Asia;Hirundo rustica;5;-7,593708853;110,8328615;Least Concern;Sedang;27. layang layang asia.jpg
-28;Lapangan Pringgolayan;Burung-gereja Erasia;Passer montanus;11;-7,582133168;110,8104948;Least Concern;Sedang;32. gereja erasia.jpg
-28;Lapangan Pringgolayan;Bondol Jawa;Lonchura leucogastroides;4;-7,582133168;110,8104948;Least Concern;Sedang;23. bondol jawa.jpg
-28;Lapangan Pringgolayan;Bondol Peking;Lonchura punctulata;4;-7,582133168;110,8104948;Least Concern;Sedang;22. bondol peking.jpg
-28;Lapangan Pringgolayan;Tekukur Biasa;Spilopelia chinensis;2;-7,582133168;110,8104948;Least Concern;Sedang;18. tekukur biasa.jpg
-28;Lapangan Pringgolayan;Layang-layang Asia;Hirundo rustica;4;-7,582133168;110,8104948;Least Concern;Sedang;27. layang layang asia.jpg
-28;Lapangan Pringgolayan;Cinenen Pisang;Orthotomus sutorius;3;-7,582133168;110,8104948;Least Concern;Sedang;13. cinenen pisang.jpg
-28;Lapangan Pringgolayan;Walet Linci;Collocalia linchi;3;-7,582133168;110,8104948;Least Concern;Sedang;
-30;Lapangan Bola Jalan Kartopuran;Burung-gereja Erasia;Passer montanus;14;-7,574715;110,817993;Least Concern;Sedang;32. gereja erasia.jpg
-30;Lapangan Bola Jalan Kartopuran;Burung-madu Sriganti;Cinnyris jugularis;2;-7,574715;110,817993;Least Concern;Sedang;30. sriganti jantan.jpg
-30;Lapangan Bola Jalan Kartopuran;Cabai Jawa;Dicaeum trochileum;2;-7,574715;110,817993;Least Concern;Sedang;21. cabai jawa jantan.jpg
-30;Lapangan Bola Jalan Kartopuran;Cinenen Pisang;Orthotomus sutorius;2;-7,574715;110,817993;Least Concern;Sedang;13. cinenen pisang.jpg
-30;Lapangan Bola Jalan Kartopuran;Cipoh Kacat;Aegithina tiphia;1;-7,574715;110,817993;Least Concern;Sedang;Cipoh kacat_Aegithina tiphia.jpg
-30;Lapangan Bola Jalan Kartopuran;Cucak Kutilang;Pycnonotus aurigaster;4;-7,574715;110,817993;Least Concern;Sedang;34. cucak kutilang.jpg
-30;Lapangan Bola Jalan Kartopuran;Layang-layang Asia;Hirundo rustica;7;-7,574715;110,817993;Least Concern;Sedang;27. layang layang asia.jpg
-30;Lapangan Bola Jalan Kartopuran;Merbah Cerucuk;Pycnonotus goiavier;1;-7,574715;110,817993;Least Concern;Sedang;35 . merbah cerucuk.jpg
-30;Lapangan Bola Jalan Kartopuran;Perkutut Jawa;Geopelia striata;4;-7,574715;110,817993;Least Concern;Sedang;19. perkutut jawa.jpg
-30;Lapangan Bola Jalan Kartopuran;Tekukur Biasa;Spilopelia chinensis;3;-7,574715;110,817993;Least Concern;Sedang;18. tekukur biasa.jpg
-30;Lapangan Bola Jalan Kartopuran;Walet Linci;Collocalia linchi;5;-7,574715;110,817993;Least Concern;Sedang;
-31;Jalur Pejalan Kaki Jalan Slamet Riyadi Kemlayan;Burung-gereja Erasia;Passer montanus;9;-7,569034909;110,8175533;Least Concern;Sedang;32. gereja erasia.jpg
-31;Jalur Pejalan Kaki Jalan Slamet Riyadi Kemlayan;Cucak Kutilang;Pycnonotus aurigaster;5;-7,569034909;110,8175533;Least Concern;Sedang;34. cucak kutilang.jpg
-31;Jalur Pejalan Kaki Jalan Slamet Riyadi Kemlayan;Cabai Jawa;Dicaeum trochileum;3;-7,569034909;110,8175533;Least Concern;Sedang;21. cabai jawa jantan.jpg
-31;Jalur Pejalan Kaki Jalan Slamet Riyadi Kemlayan;Bondol Peking;Lonchura punctulata;6;-7,569034909;110,8175533;Least Concern;Sedang;22. bondol peking.jpg
-31;Jalur Pejalan Kaki Jalan Slamet Riyadi Kemlayan;Layang-layang Asia;Hirundo rustica;5;-7,569034909;110,8175533;Least Concern;Sedang;27. layang layang asia.jpg
-31;Jalur Pejalan Kaki Jalan Slamet Riyadi Kemlayan;Cinenen Pisang;Orthotomus sutorius;4;-7,569034909;110,8175533;Least Concern;Sedang;13. cinenen pisang.jpg
-31;Jalur Pejalan Kaki Jalan Slamet Riyadi Kemlayan;Merbah Cerucuk;Pycnonotus goiavier;3;-7,569034909;110,8175533;Least Concern;Sedang;35 . merbah cerucuk.jpg
-32;Kadipiro;Bondol Peking;Lonchura punctulata;8;-7,53064;-110,8160019;Least Concern;Kecil;22. bondol peking.jpg
-32;Kadipiro;Burung-gereja Erasia;Passer montanus;6;-7,53064;-110,8160019;Least Concern;Kecil;32. gereja erasia.jpg
-32;Kadipiro;Cinenen Pisang;Orthotomus sutorius;2;-7,53064;-110,8160019;Least Concern;Kecil;13. cinenen pisang.jpg
-32;Kadipiro;Cipoh Kacat;Aegithina tiphia;2;-7,53064;-110,8160019;Least Concern;Kecil;Cipoh kacat_Aegithina tiphia.jpg
-32;Kadipiro;Cucak Kutilang;Pycnonotus aurigaster;4;-7,53064;-110,8160019;Least Concern;Kecil;34. cucak kutilang.jpg
-32;Kadipiro;Burung-madu Sriganti;Nectarinia jugularis;4;-7,53064;-110,8160019;Least Concern;Kecil;30. sriganti jantan.jpg
-32;Kadipiro;Perkutut Jawa;Geopelia striata;5;-7,53064;-110,8160019;Least Concern;Kecil;19. perkutut jawa.jpg
-33;Jalur Hijau Jalan Ronggowarsito (Utara);Bondol Jawa;Lonchura leucogastroides;2;-7,570089722;-110,8280031;Least Concern;Kecil;23. bondol jawa.jpg
-33;Jalur Hijau Jalan Ronggowarsito (Utara);Bondol Peking;Lonchura punctulata;4;-7,570089722;-110,8280031;Least Concern;Kecil;22. bondol peking.jpg
-33;Jalur Hijau Jalan Ronggowarsito (Utara);Burung-gereja Erasia;Passer montanus;6;-7,570089722;-110,8280031;Least Concern;Kecil;32. gereja erasia.jpg
-34;Pura Mangkunegaran;Bondol Peking;Lonchura punctulata;24;-7,566609722;-110,8229981;Least Concern;Kecil;22. bondol peking.jpg
-34;Pura Mangkunegaran;Burung-gereja Erasia;Passer montanus;18;-7,566609722;-110,8229981;Least Concern;Kecil;32. gereja erasia.jpg
-34;Pura Mangkunegaran;Cabai Jawa;Dicaeum trochileum;6;-7,566609722;-110,8229981;Least Concern;Kecil;21. cabai jawa jantan.jpg
-34;Pura Mangkunegaran;Cucak Kutilang;Pycnonotus aurigaster;9;-7,566609722;-110,8229981;Least Concern;Kecil;34. cucak kutilang.jpg
-34;Pura Mangkunegaran;Walet Linci;Collocalia linchi;38;-7,566609722;-110,8229981;Least Concern;Kecil;
-34;Pura Mangkunegaran;Merbah Cerucuk;Pycnonotus goiavier;2;-7,566609722;-110,8229981;Least Concern;Kecil;36 . merbah cerucuk.jpg
-35;Sempadan Sungai Pepe;Bondol Jawa;Lonchura leucogastroides;14;-7,55795;-110,8199997;Least Concern;Kecil;23. bondol jawa.jpg
-35;Sempadan Sungai Pepe;Bondol Peking;Lonchura punctulata;6;-7,55795;-110,8199997;Least Concern;Kecil;22. bondol peking.jpg
-35;Sempadan Sungai Pepe;Burung-gereja Erasia;Passer montanus;8;-7,55795;-110,8199997;Least Concern;Kecil;32. gereja erasia.jpg
-35;Sempadan Sungai Pepe;Merbah Cerucuk;Pycnonotus goiavier;1;-7,55795;-110,8199997;Least Concern;Kecil;40 . merbah cerucuk.jpg
-36;Taman Monumen Achmadi;Bondol Peking;Lonchura punctulata;4;-7,559100278;-110,8280031;Least Concern;Kecil;22. bondol peking.jpg
-36;Taman Monumen Achmadi;Cabai Jawa;Dicaeum trochileum;1;-7,559100278;-110,8280031;Least Concern;Kecil;21. cabai jawa jantan.jpg
-36;Taman Monumen Achmadi;Cucak Kutilang;Pycnonotus aurigaster;1;-7,559100278;-110,8280031;Least Concern;Kecil;34. cucak kutilang.jpg
-36;JL.A.Yani;Layang-layang Asia;Hirundo rustica;1324;-7,559100278;-110,8280031;Least Concern;Kecil;27. layang layang asia.jpg
-36;Taman Monumen Achmadi;Walet Linci;Collocalia linchi;5;-7,559100278;-110,8280031;Least Concern;Kecil;
-36;Taman Monumen Achmadi;Perkutut Jawa;Geopelia striata;2;-7,559100278;-110,8280031;Least Concern;Kecil;19. perkutut jawa.jpg
-37;Sempadan Sungai Gajah Putih;Cucak Kutilang;Pycnonotus aurigaster;4;-7,551040278;-110,8030014;Least Concern;Kecil;34. cucak kutilang.jpg
-37;Sempadan Sungai Gajah Putih;Merbah Cerucuk;Pycnonotus goiavier;3;-7,551040278;-110,8030014;Least Concern;Kecil;43 . merbah cerucuk.jpg
-37;Sempadan Sungai Gajah Putih;Caladi ulam;Dendrocopos macei;1;-7,551040278;-110,8030014;Least Concern;Kecil;
-37;Sempadan Sungai Gajah Putih;Perkutut Jawa;Geopelia striata;2;-7,551040278;-110,8030014;Least Concern;Kecil;19. perkutut jawa.jpg
-38;Sempadan Sungai Boro;Burung-gereja Erasia;Passer montanus;6;-7,56607;-110,8399964;Least Concern;Kecil;32. gereja erasia.jpg
-38;Sempadan Sungai Boro;Cabai Jawa;Dicaeum trochileum;2;-7,56607;-110,8399964;Least Concern;Kecil;21. cabai jawa jantan.jpg
-38;Sempadan Sungai Boro;Burung-madu Sriganti;Nectarinia jugularis;4;-7,56607;-110,8399964;Least Concern;Kecil;30. sriganti jantan.jpg
-38;Sempadan Sungai Boro;Layang-layang Asia;Hirundo rustica;3;-7,56607;-110,8399964;Least Concern;Kecil;27. layang layang asia.jpg
-38;Sempadan Sungai Boro;Walet Linci;Collocalia linchi;4;-7,56607;-110,8399964;Least Concern;Kecil;
-39;Makam Astonoloyo;Bondol Jawa;Lonchura leucogastroides;2;-7,538390278;-110,8339997;Least Concern;Kecil;23. bondol jawa.jpg
-39;Makam Astonoloyo;Cabai Jawa;Dicaeum trochileum;1;-7,538390278;-110,8339997;Least Concern;Kecil;21. cabai jawa jantan.jpg
-39;Makam Astonoloyo;Cinenen Pisang;Orthotomus sutorius;1;-7,538390278;-110,8339997;Least Concern;Kecil;13. cinenen pisang.jpg
-39;Makam Astonoloyo;Cucak Kutilang;Pycnonotus aurigaster;1;-7,538390278;-110,8339997;Least Concern;Kecil;34. cucak kutilang.jpg
-39;Makam Astonoloyo;Walet Linci;Collocalia linchi;9;-7,538390278;-110,8339997;Least Concern;Kecil;
-39;Makam Astonoloyo;Sepah Kecil;Pericrocotus cinnamomeus;6;-7,538390278;-110,8339997;Least Concern;Kecil;Sepah Kecil_Pericrocotus cinnamomeus.jpg
-39;Makam Astonoloyo;Merbah Cerucuk;Pycnonotus goiavier;1;-7,538390278;-110,8339997;Least Concern;Kecil;45 . merbah cerucuk.jpg
-39;Makam Astonoloyo;Perkutut Jawa;Geopelia striata;1;-7,538390278;-110,8339997;Least Concern;Kecil;19. perkutut jawa.jpg
-40;Taman Cerdas Mojosongo;Bondol Jawa;Lonchura leucogastroides;4;-7,53713;-110,8379975;Least Concern;Kecil;23. bondol jawa.jpg
-40;Taman Cerdas Mojosongo;Bondol Peking;Lonchura punctulata;2;-7,53713;-110,8379975;Least Concern;Kecil;22. bondol peking.jpg
-40;Taman Cerdas Mojosongo;Burung-gereja Erasia;Passer montanus;4;-7,53713;-110,8379975;Least Concern;Kecil;32. gereja erasia.jpg
-40;Taman Cerdas Mojosongo;Cabai Jawa;Dicaeum trochileum;2;-7,53713;-110,8379975;Least Concern;Kecil;21. cabai jawa jantan.jpg
-40;Taman Cerdas Mojosongo;Cucak Kutilang;Pycnonotus aurigaster;2;-7,53713;-110,8379975;Least Concern;Kecil;34. cucak kutilang.jpg
-40;Taman Cerdas Mojosongo;Walet Linci;Collocalia linchi;5;-7,53713;-110,8379975;Least Concern;Kecil;
-40;Taman Cerdas Mojosongo;Merbah Cerucuk;Pycnonotus goiavier;1;-7,53713;-110,8379975;Least Concern;Kecil;47 . merbah cerucuk.jpg
-40;Taman Cerdas Mojosongo;Tekukur Biasa;Spilopelia chinensis;1;-7,53713;-110,8379975;Least Concern;Kecil;18. tekukur biasa.jpg
-41;JL.A.Yani;Burung-gereja Erasia;Passer montanus;4;-7,559899722;-110,8369981;Least Concern;Kecil;32. gereja erasia.jpg
-41;JL.A.Yani;Walet Linci;Collocalia linchi;6;-7,559899722;-110,8369981;Least Concern;Kecil;
-42;Jalur Pejalan Kaki Jalan Monginsidi;Cabai Jawa;Dicaeum trochileum;1;-7,55903;-110,8320008;Least Concern;Kecil;21. cabai jawa jantan.jpg
-42;Jalur Pejalan Kaki Jalan Monginsidi;Cucak Kutilang;Pycnonotus aurigaster;1;-7,55903;-110,8320008;Least Concern;Kecil;34. cucak kutilang.jpg
-42;Jalur Pejalan Kaki Jalan Monginsidi;Walet Linci;Collocalia linchi;3;-7,55903;-110,8320008;Least Concern;Kecil;
-42;Jalur Pejalan Kaki Jalan Monginsidi;Merbah Cerucuk;Pycnonotus goiavier;1;-7,55903;-110,8320008;Least Concern;Kecil;38 . merbah cerucuk.jpg
-43;Jl. Adi Sucipto;Cucak Kutilang;Pycnonotus aurigaster;2;-7,546748;110,778541;Least Concern;Kecil;34. cucak kutilang.jpg
-43;Jl. Adi Sucipto;Burung-gereja Erasia;Passer montanus;8;-7,546748;110,778541;Least Concern;Kecil;32. gereja erasia.jpg
-43;Jl. Adi Sucipto;Cabai Jawa;Dicaeum trochileum;1;-7,546748;110,778541;Least Concern;Kecil;21. cabai jawa jantan.jpg
-43;Jl. Adi Sucipto;Tekukur Biasa;Spilopelia chinensis;4;-7,546748;110,778541;Least Concern;Kecil;18. tekukur biasa.jpg
-44;Jalur Hijau Jalan Slamet Riyadi;Tekukur Biasa;Spilopelia chinensis;1;-7,55972434;110,7879183;Least Concern;Kecil;18. tekukur biasa.jpg
-44;Jalur Hijau Jalan Slamet Riyadi;Perkutut Jawa;Geopelia striata;1;-7,55972434;110,7879183;Least Concern;Kecil;19. perkutut jawa.jpg
-44;Jalur Hijau Jalan Slamet Riyadi;Takur Ungkut-ungkut;Megalaima haemacephala;1;-7,55972434;110,7879183;Least Concern;Kecil;29. takur ungkut ungkut.jpg
-44;Jalur Hijau Jalan Slamet Riyadi;Layang-layang Asia;Hirundo rustica;8;-7,55972434;110,7879183;Least Concern;Kecil;27. layang layang asia.jpg
-44;Jalur Hijau Jalan Slamet Riyadi;Walet Linci;Collocalia linchi;4;-7,55972434;110,7879183;Least Concern;Kecil;
-44;Jalur Hijau Jalan Slamet Riyadi;Burung-gereja Erasia;Passer montanus;10;-7,55972434;110,7879183;Least Concern;Kecil;32. gereja erasia.jpg
-44;Jalur Hijau Jalan Slamet Riyadi;Cucak Kutilang;Pycnonotus aurigaster;1;-7,55972434;110,7879183;Least Concern;Kecil;34. cucak kutilang.jpg
-44;Jalur Hijau Jalan Slamet Riyadi;Bondol Jawa;Lonchura leucogastroides;2;-7,55972434;110,7879183;Least Concern;Kecil;23. bondol jawa.jpg
-45;Makam Kramat;Layang-layang Asia;Hirundo rustica;5;-7,569670469;110,7915078;Least Concern;Kecil;27. layang layang asia.jpg
-45;Makam Kramat;Tekukur Biasa;Spilopelia chinensis;2;-7,569670469;110,7915078;Least Concern;Kecil;18. tekukur biasa.jpg
-45;Makam Kramat;Bondol Jawa;Lonchura leucogastroides;4;-7,569670469;110,7915078;Least Concern;Kecil;23. bondol jawa.jpg
-45;Makam Kramat;Burung-gereja Erasia;Passer montanus;6;-7,569670469;110,7915078;Least Concern;Kecil;32. gereja erasia.jpg
-45;Makam Kramat;Cucak Kutilang;Pycnonotus aurigaster;1;-7,569670469;110,7915078;Least Concern;Kecil;34. cucak kutilang.jpg
-45;Makam Kramat;Cinenen Pisang;Orthotomus sutorius;1;-7,569670469;110,7915078;Least Concern;Kecil;13. cinenen pisang.jpg
-46;Taman Bermain Anak Jalan Bengle;Layang-layang Asia;Hirundo rustica;5;-7,56182475;110,7841886;Least Concern;Kecil;27. layang layang asia.jpg
-46;Taman Bermain Anak Jalan Bengle;Burung-gereja Erasia;Passer montanus;4;-7,56182475;110,7841886;Least Concern;Kecil;32. gereja erasia.jpg
-47;Taman Tugu Kebangkitan Nasional;Burung-gereja Erasia;Passer montanus;6;-7,568692;110,805666;Least Concern;Kecil;32. gereja erasia.jpg
-47;Taman Tugu Kebangkitan Nasional;Cabai Jawa;Dicaeum trochileum;2;-7,568692;110,805666;Least Concern;Kecil;21. cabai jawa jantan.jpg
-47;Taman Tugu Kebangkitan Nasional;Cucak Kutilang;Pycnonotus aurigaster;2;-7,568692;110,805666;Least Concern;Kecil;34. cucak kutilang.jpg
-47;Taman Tugu Kebangkitan Nasional;Layang-layang Asia;Hirundo rustica;4;-7,568692;110,805666;Least Concern;Kecil;27. layang layang asia.jpg
-47;Taman Tugu Kebangkitan Nasional;Tekukur Biasa;Spilopelia chinensis;1;-7,568692;110,805666;Least Concern;Kecil;18. tekukur biasa.jpg
-47;Taman Tugu Kebangkitan Nasional;Walet Linci;Collocalia linchi;5;-7,568692;110,805666;Least Concern;Kecil;
-48;Taman Balaikota;Cucak Kutilang;Pycnonotus aurigaster;3;-7,569359773;110,8297276;Least Concern;Kecil;34. cucak kutilang.jpg
-48;Taman Balaikota;Tekukur Biasa;Spilopelia chinensis;2;-7,569359773;110,8297276;Least Concern;Kecil;18. tekukur biasa.jpg
-48;Taman Balaikota;Perkutut Jawa;Geopelia striata;1;-7,569359773;110,8297276;Least Concern;Kecil;19. perkutut jawa.jpg
-48;Taman Balaikota;Burung-gereja Erasia;Passer montanus;7;-7,569359773;110,8297276;Least Concern;Kecil;32. gereja erasia.jpg
-48;Taman Balaikota;Layang-layang Asia;Hirundo rustica;5;-7,569359773;110,8297276;Least Concern;Kecil;27. layang layang asia.jpg
-49;Jalur Pejalan Kaki Jalan Alun-Alun Utara;Burung-gereja Erasia;Passer montanus;6;-7,572970694;110,829167;Least Concern;Kecil;32. gereja erasia.jpg
-49;Jalur Pejalan Kaki Jalan Alun-Alun Utara;Layang-layang Asia;Hirundo rustica;2;-7,572970694;110,829167;Least Concern;Kecil;27. layang layang asia.jpg
-49;Jalur Pejalan Kaki Jalan Alun-Alun Utara;Cabai Jawa;Dicaeum trochileum;2;-7,572970694;110,829167;Least Concern;Kecil;21. cabai jawa jantan.jpg
-50;TPU Cemoro Kembar;Burung-gereja Erasia;Passer montanus;6;-7,592947969;110,8314443;Least Concern;Kecil;32. gereja erasia.jpg
-50;TPU Cemoro Kembar;Layang-layang Asia;Hirundo rustica;4;-7,592947969;110,8314443;Least Concern;Kecil;27. layang layang asia.jpg
-50;TPU Cemoro Kembar;Walet Linci;Collocalia linchi;4;-7,592947969;110,8314443;Least Concern;Kecil;
-50;TPU Cemoro Kembar;Cabai Jawa;Dicaeum trochileum;3;-7,592947969;110,8314443;Least Concern;Kecil;21. cabai jawa jantan.jpg
-50;TPU Cemoro Kembar;Cinenen Pisang;Orthotomus sutorius;1;-7,592947969;110,8314443;Least Concern;Kecil;13. cinenen pisang.jpg
-50;TPU Cemoro Kembar;Cekakak sungai;Todiramphus chloris;1;-7,592947969;110,8314443;Least Concern;Kecil;Cekakak Sungai_Todiramphus chloris.jpg
-51;Taman Lottemart;Bondol Jawa;Lonchura leucogastroides;3;-7,578517;110,807875;Least Concern;Kecil;23. bondol jawa.jpg
-51;Taman Lottemart;Cucak Kutilang;Pycnonotus aurigaster;1;-7,578517;110,807875;Least Concern;Kecil;34. cucak kutilang.jpg
-51;Taman Lottemart;Layang-layang Asia;Hirundo rustica;6;-7,578517;110,807875;Least Concern;Kecil;27. layang layang asia.jpg
-51;Taman Lottemart;Walet Linci;Collocalia linchi;2;-7,578517;110,807875;Least Concern;Kecil;
+﻿Nama Lokal ;Spesies;Status IUCN;Lampiran Foto
+Bondol Haji;Lonchura maja;Least Concern;bondol haji.jpg
+Bondol Jawa;Lonchura leucogastroides;Least Concern;bondol jawa.jpg
+Bondol Peking;Lonchura punctulata;Least Concern;bondol peking.jpg
+Burung-gereja Erasia;Passer montanus;Least Concern;burung-gereja erasia.jpg
+Burung-madu Kelapa;Anthreptes malacensis;Least Concern;burung-madu kelapa.jpg
+Burung-madu Sriganti;Cinnyris jugularis;Least Concern;burung-madu sriganti.jpg
+Cabai Jawa;Dicaeum trochileum;Least Concern;cabai jawa.jpg
+Caladi ulam;Dendrocopos macei;Least Concern;caladi ulam.jpg
+Cekakak Jawa;Halcyon cyanoventris;Least Concern;cekakak jawa.jpg
+Cekakak sungai;Todiramphus chloris;Least Concern;cekakak sungai.jpg
+Cinenen Jawa;Orthotomus sepium;Least Concern;cinenen jawa.jpg
+Cinenen Pisang;Orthotomus sutorius;Least Concern;cinenen pisang.jpg
+Cipoh Kacat;Aegithina tiphia;Least Concern;cipoh kacat.jpg
+Cucak Kutilang;Pycnonotus aurigaster;Least Concern;cucak kutilang.jpg
+Cucak Meranti;Chloropsis cochinchinensis;Endangered;cucak meranti.jpg
+Gemak Loreng;Turnix suscitator;Least Concern;gemak loreng.jpg
+Kacamata Biasa;Zosterops palpebrosus;Least Concern;kacamata biasa.jpg
+Kareo Padi;Amaurornis phoenicurus;Least Concern;kareo padi.jpg
+Kekep Babi;Artamus leucorynchus;Least Concern;kekep babi.jpg
+Kerak Kerbau;Acridotheres javanicus;Vulnerable;kerak kerbau.jpg
+Kuntul Kecil;Egretta garzetta;Least Concern;kuntul kecil.jpg
+Layang-layang Asia;Hirundo rustica;Least Concern;layang-layang asia.jpg
+Layang-layang Batu;Hirundo tahitica;Least Concern;layang-layang batu.jpg
+Merbah Cerucuk;Pycnonotus goiavier;Least Concern;merbah cerucuk.jpg
+Perenjak Padi;Prinia inornata;Least Concern;perenjak padi.jpg
+Perkutut Jawa;Geopelia striata;Least Concern;perkutut jawa.jpg
+Pijantung Kecil;Arachnothera longirostra;Least Concern;pijantung kecil.jpg
+Raja-udang Biru;Alcedo coerulescens;Least Concern;raja-udang biru.jpg
+Raja-udang Meninting;Alcedo meninting;Least Concern;raja-udang meninting.jpg
+Sepah Kecil;Pericrocotus cinnamomeus;Least Concern;sepah kecil.jpg
+Takur Ungkut-ungkut;Megalaima haemacephala;Least Concern;takur ungkut ungkut.jpg
+Tekukur Biasa;Spilopelia chinensis;Least Concern;tekukur biasa.jpg
+Walet Linci;Collocalia linchi;Least Concern;walet linci.jpg
+Wiwik Kelabu;Cacomantis merulinus;Least Concern;wiwik kelabu.jpg
+Kapuk Randu;Ceiba pentandra;Least Concern;kapuk randu.jpg
+Karet Kebo;Ficus elastica;Least Concern;karet kebo.jpg
+Kareumbi;Homalanthus populneus;Least Concern;kareumbi.jpg
+Kayu Jaran;Lannea coromandelica;Least Concern;kayu jaran.jpg
+Kayu Putih;Melaleuca leucadendra;Data Deficient;kayu putih.jpg
+Kecrutan;Spathodea campanulata;Least Concern;kecrutan.jpg
+Kelengkeng;Dimocarpus longan;Near Threatened;kelengkeng.jpg
+Kelor;Moringa oleifera;Least Concern;kelor.jpg
+Kenitu;Chrysophyllum cainito;Least Concern;kenitu.jpg
+Kepoh;Sterculia foetida;Not Evaluated;kepoh.jpg
+Kerai Payung;Filicium decipiens;Least Concern;kerai payung.jpg
+Kersen;Muntingia calabura;Not Evaluated;kersen.jpg
+Ketapang;Terminalia catappa;Least Concern;ketapang.jpg
+Ketapang Kencana;Terminalia mantaly;Least Concern;ketapang kencana.jpg
+Kleco;Diospyros malabarica;Not Evaluated;kleco.jpg
+Kluwih;Artocarpus camansi;Not Evaluated;kluwih.jpg
+Kopi Anjing;Cynometra ramiflora;Least Concern;kopi anjing.jpg
+Lamtoro;Leucaena leucocephala;Not Evaluated;lamtoro.jpg
+Mahoni;Swietenia mahagoni;Near Threatened;mahoni.jpg
+Mahua;Madhuca longifolia;Not Evaluated;mahua.jpg
+Makaranga;Macaranga tanarius;Least Concern;makaranga.jpg
+Mangga;Mangifera indica;Data Deficient;mangga.jpg
+Matoa;Pometia pinnata;Least Concern;matoa.jpg
+Mindi;Melia azedarach;Least Concern;mindi.jpg
+Nagasari;Mesua ferrea;Not Evaluated;nagasari.jpg
+Nangka;Artocarpus heterophyllus;Not Evaluated;nangka.jpg
+Nyamplung;Calophyllum inophyllum;Least Concern;nyamplung.jpg
+Palem Butia;Butia capitata;Not Evaluated;palem butia.jpg
+Palem Raja;Roystonea regia;Least Concern;palem raja.jpg
+Pohon Biola Cantik;Ficus lyrata;Least Concern;pohon biola cantik.jpg
+Pohon Lo;Ficus racemosa;Least Concern;pohon lo.jpg
+Pohon Roda;Hura crepitans;Not Evaluated;pohon roda.jpg
+Pohon Sapu Tangan;Maniltoa grandiflora;Not Evaluated;pohon sapu tangan.jpg
+Pohon Sosis;Kigelia africana;Least Concern;pohon sosis.jpg
+Pule;Alstonia scholaris;Least Concern;pule.jpg
+Rambutan;Nephelium lappaceum;Least Concern;rambutan.jpg
+Randu Alas;Bombax ceiba;Least Concern;randu alas.jpg
+Salam;Syzygium polyanthum;Not Evaluated;salam.jpg
+Sawo Kecik;Manilkara kauki;Not Evaluated;sawo kecik.jpg
+Sengon;Paraserianthes falcataria;Not Evaluated;sengon.jpg
+Sikat Botol;Callistemon viminalis;Not Evaluated;sikat botol.jpg
+Soga;Peltophorum pterocarpum;Not Evaluated;soga.jpg
+Sonokeling;Dalbergia latifolia;Vulnerable;sonokeling.jpg
+Sukun;Artocarpus altilis;Not Evaluated;sukun.jpg
+Tabebuya Kuning;Handroanthus chrysotrichus;Not Evaluated;tabebuya kuning.jpg
+Tabebuya Ungu;Tabebuia rosea;Least Concern;tabebuya ungu.jpg
+Tanjung;Mimusops elengi;Least Concern;tanjung.jpg
+Trembesi;Samanea saman;Least Concern;trembesi.jpg
+Waru;Hibiscus tiliaceus;Least Concern;waru.jpg

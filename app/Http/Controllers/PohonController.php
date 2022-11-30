@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\PohonModel;
+use App\Models\PohonRTHModel;
 use App\Models\RTHModel;
+
 
 use Illuminate\Http\Request;
 
@@ -20,17 +22,22 @@ class PohonController extends Controller
 
     public function detail($id)
     {
-        $pohon = PohonModel::where('id',$id)->first();
+        $pohon = PohonModel::where('nama_jenis',$id)->first();
         $data = [
             'pohon' => $pohon,
-            'rth' => PohonModel::where('spesies',$pohon->spesies)->groupBy('nama_rth','spesies')->get()
+            'rth' => PohonRTHModel::where('nama',$id)->get()
         ];
 
         return view('pages/pohon_detail', $data);
     }
 
     public function list($id){
-        $pohon = PohonModel::where('id_rth',$id)->groupBy('spesies')->get();
+        $pohon = PohonRTHModel::where('id_rth',$id)->get();
+        foreach($pohon as $p){
+            $p->iucn = PohonModel::where('nama_jenis',$p->nama)->first()->iucn;
+            $p->nama_jenis = PohonModel::where('nama_jenis',$p->nama)->first()->nama_jenis;
+            $p->spesies = PohonModel::where('nama_jenis',$p->nama)->first()->spesies;
+        }
         $data = [
             'pohon' => $pohon,
             'rth' => RTHModel::where('id',$id)->first()

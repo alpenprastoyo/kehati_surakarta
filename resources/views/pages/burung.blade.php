@@ -82,7 +82,7 @@
                                             {{-- <td>{{ $r->jumlah }}</td> --}}
                                             <td>{{ $r->iucn }}</td>
                                             {{-- <td>{{ $r->image }}</td> --}}
-                                            <td>  <a target="_blank" id="detail" href="/burung/{{ $r->id_rth }}"> <button type="button"
+                                            <td>  <a target="_blank" id="detail" href="/burung/{{ $r->nama_jenis }}"> <button type="button"
                                                 class="btn btn-success">Lihat Detail</button></a></td>
                                         </tr>
                                     @endforeach

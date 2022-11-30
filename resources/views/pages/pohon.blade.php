@@ -76,7 +76,7 @@
                                             <td>{{ $r->nama_jenis }}</td>
                                             <td>{{ $r->spesies }}</td>
                                             <td>{{ $r->iucn }}</td>
-                                            <td>  <a target="_blank" id="detail" href="/pohon/{{ $r->id }}"> <button type="button"
+                                            <td>  <a target="_blank" id="detail" href="/pohon/{{ $r->nama_jenis }}"> <button type="button"
                                                 class="btn btn-success">Lihat Detail</button></a></td>
                                         </tr>
                                     @endforeach
