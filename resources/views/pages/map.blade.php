@@ -96,7 +96,7 @@
                             <h4 class="card-title">Jumlah Burung</h4>
                             <div class="row">
                                 <div class="col-lg-1">
-                                    <p id="luas" class="card-text">6 </p>
+                                    <p id="luas" class="card-text">{{ $rth->jumlah_burung }} </p>
                                 </div>
                                 <div class="col-lg-11">
                                     <a target="_blank" id="detail" href="/burung/list/{{ $rth->id }}"> <button
@@ -107,7 +107,7 @@
                             <h4 class="card-title">Jumlah Pohon</h4>
                             <div class="row">
                                 <div class="col-lg-1">
-                                    <p id="luas" class="card-text">6 </p>
+                                    <p id="luas" class="card-text">{{} $rth->jumlah_pohon }} </p>
                                 </div>
                                 <div class="col-lg-11">
                                     <a target="_blank" id="detail" href="/pohon/list/{{ $rth->id }}"> <button
