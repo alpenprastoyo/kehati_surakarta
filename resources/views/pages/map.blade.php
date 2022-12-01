@@ -99,7 +99,7 @@
                                     <p id="jumlah_burung" class="card-text">{{ $rth->jumlah_burung }} </p>
                                 </div>
                                 <div class="col-lg-10">
-                                    <a target="_blank" id="detail" href="/burung/list/{{ $rth->id }}"> <button
+                                    <a target="_blank" id="detail_burung" href="/burung/list/{{ $rth->id }}"> <button
                                             type="button" class="btn btn-success">Lihat Detail Burung</button></a>
                                 </div>
                             </div>
@@ -110,7 +110,7 @@
                                     <p id="jumlah_pohon" class="card-text">{{ $rth->jumlah_pohon }} </p>
                                 </div>
                                 <div class="col-lg-10">
-                                    <a target="_blank" id="detail" href="/pohon/list/{{ $rth->id }}"> <button
+                                    <a target="_blank" id="detail_pohon" href="/pohon/list/{{ $rth->id }}"> <button
                                             type="button" class="btn btn-success">Lihat Detail Pohon</button></a>
                                 </div>
                             </div>
@@ -174,7 +174,8 @@
                 $("#jumlah_burung").html(rth.jumlah_burung );
 
                 // $("#image").attr("src", dummy[Math.floor(Math.random() * 3)]);
-                $("#detail").attr("href", "/rth/detail/" + rth.id);
+                $("#detail_burung").attr("href", "/burung/list/" + rth.id);
+                $("#detail_pohon").attr("href", "/burung/list/" + rth.id);
                 var slide = ""
                 var galery = ""
                 rth.image.forEach((value, index) => {
