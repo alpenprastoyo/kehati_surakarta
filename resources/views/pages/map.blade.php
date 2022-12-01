@@ -175,7 +175,7 @@
 
                 // $("#image").attr("src", dummy[Math.floor(Math.random() * 3)]);
                 $("#detail_burung").attr("href", "/burung/list/" + rth.id);
-                $("#detail_pohon").attr("href", "/burung/list/" + rth.id);
+                $("#detail_pohon").attr("href", "/pohon/list/" + rth.id);
                 var slide = ""
                 var galery = ""
                 rth.image.forEach((value, index) => {
