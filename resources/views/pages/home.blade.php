@@ -41,6 +41,118 @@
                         </div>
                     </div>
                 </section>
+
+
+
+                <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-header">
+                                        GALERI POHON
+                                      </div>
+
+                                    <div  class="card-body">
+
+
+                                        <div style="max-height: 350px;" id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                            <ol class="carousel-indicators slider">
+                                                @php $x = 0 @endphp
+                                                @foreach ($pohon as $i)
+                                                    @if ($x == 0)
+                                                        <li data-bs-target="#carouselExampleIndicators"
+                                                            data-bs-slide-to="{{ $x++ }}" class="active"></li>
+                                                    @else
+                                                        <li data-bs-target="#carouselExampleIndicators"
+                                                            data-bs-slide-to="{{ $x++ }}"></li>
+                                                    @endif
+                                                @endforeach
+                                            </ol>
+                                            <div class="carousel-inner galery" role="listbox">
+                                                @php $x = 1 @endphp
+                                                @foreach ($pohon as $i)
+                                                    @if ($x == 1)
+                                                        <div class="carousel-item active">
+                                                            <img class="d-block img-fluid"
+                                                                src="{{ asset('/img/pohon/' . $i->image ) }}"
+                                                                alt="{{ $x++ }}">
+                                                        </div>
+                                                    @else
+                                                        <div class="carousel-item">
+                                                            <img class="d-block img-fluid"
+                                                            src="{{ asset('/img/pohon/' . $i->image ) }}"
+                                                            alt="{{ $x++ }}">
+                                                        </div>
+                                                    @endif
+                                                @endforeach
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                                data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                                data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- end col -->
+
+                            <div  class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-header">
+                                        GALERI BURUNG
+                                      </div>
+                                    <div class="card-body">
+                                        <div style="max-height: 350px;" id="carouselburung" class="carousel slide" data-bs-ride="carousel">
+                                            <ol class="carousel-indicators slider">
+                                                @php $x = 0 @endphp
+                                                @foreach ($burung as $i)
+                                                    @if ($x == 0)
+                                                        <li data-bs-target="#carouselburung"
+                                                            data-bs-slide-to="{{ $x++ }}" class="active"></li>
+                                                    @else
+                                                        <li data-bs-target="#carouselburung"
+                                                            data-bs-slide-to="{{ $x++ }}"></li>
+                                                    @endif
+                                                @endforeach
+                                            </ol>
+                                            <div class="carousel-inner galery" role="listbox">
+                                                @php $x = 1 @endphp
+                                                @foreach ($burung as $i)
+                                                    @if ($x == 1)
+                                                        <div class="carousel-item active">
+                                                            <img class="d-block img-fluid"
+                                                                src="{{ asset('/img/burung/' . $i->image ) }}"
+                                                                alt="{{ $x++ }}">
+                                                        </div>
+                                                    @else
+                                                        <div class="carousel-item">
+                                                            <img class="d-block img-fluid"
+                                                            src="{{ asset('/img/burung/' . $i->image ) }}"
+                                                            alt="{{ $x++ }}">
+                                                        </div>
+                                                    @endif
+                                                @endforeach
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselburung" role="button"
+                                                data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselburung" role="button"
+                                                data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- end col -->
+                        </div>
+
                 <!-- Hero End -->
                 {{-- <section class="section feather-bg-img" style="background-image: url(images/features-bg-img-1.png)">
                     <div class="container">
@@ -49,12 +161,12 @@
                                 <p class="font-weight-medium text-uppercase mb-2"><i class="mdi mdi-chart-bubble h2 text-primary me-1 align-middle"></i> Creative Features</p>
                                 <h3 class="font-weight-semibold line-height-1_4 mb-4">SAMBUTAN KEPALA DINAS DLH KOTA SURAKARTA</h3>
                                 <!-- <h3 class="font-weight-semibold line-height-1_4 mb-4">Build <b>community</b> & <b>conversion</b> with our suite of <b>social tool</b></h3> -->
-                                <p class="text-muted font-size-15 mb-4 text-justify">UU Nomor 26 tahun 2007 tentang Penataan Ruang, ketentuan dan pengaturan 
-                                    ruang terbuka hijau menjadi bagian yang tidak terpisahkan dalam proses penataan ruang kawasan perkotaan. Setiap wilayah 
-                                    diwajibkan untuk mengalokasikan sedikitnya 30% dari ruang atau wilayahnya untuk RTH, dimana 20% diperuntukan bagi RTH publik yang merupakan ruang 
-                                    terbuka hijau yang dimiliki dan dikelola oleh pemerintah kota dan digunakan untuk kepentingan masyarakat secara umum, serta 10% diperuntukan bagi 
+                                <p class="text-muted font-size-15 mb-4 text-justify">UU Nomor 26 tahun 2007 tentang Penataan Ruang, ketentuan dan pengaturan
+                                    ruang terbuka hijau menjadi bagian yang tidak terpisahkan dalam proses penataan ruang kawasan perkotaan. Setiap wilayah
+                                    diwajibkan untuk mengalokasikan sedikitnya 30% dari ruang atau wilayahnya untuk RTH, dimana 20% diperuntukan bagi RTH publik yang merupakan ruang
+                                    terbuka hijau yang dimiliki dan dikelola oleh pemerintah kota dan digunakan untuk kepentingan masyarakat secara umum, serta 10% diperuntukan bagi
                                     RTH private pada lahan-lahan yang dimiliki oleh swasta atau masyarakat.</p>
-                                
+
                             </div>
                             <div class="col-lg-6 offset-lg-1">
                                 <div class="mt-4 mt-lg-0">
