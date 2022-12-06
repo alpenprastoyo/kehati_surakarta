@@ -127,9 +127,7 @@
             "language": {
                 "url": "{{ asset('foxia/assets/libs/datatables.net-bs4/js/dataTables.Indonesian.json') }}"
             },
-            rowReorder: {
-                selector: 'td:nth-child(2)'
-            },
+
             responsive: true
         });
 

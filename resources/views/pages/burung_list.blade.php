@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-8">
-                    <h6 class="page-title">DATA BURUNG PADA AREA STUDI <span style="text-transform:uppercase">{{ $rth->lokasi }}</span> </h6>
+                    <h6 class="page-title">DATA BURUNG PADA TITIK LOKASI <span style="text-transform:uppercase">{{ $rth->lokasi }}</span> </h6>
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@
                     <div class="card">
                         <div class="card-body">
 
-                            <h4 class="card-title">DATA BURUNG PADA AREA STUDI <span style="text-transform:uppercase">{{ $rth->lokasi }}</span> </h4>
+                            <h4 class="card-title">DATA BURUNG PADA TITIK LOKASI <span style="text-transform:uppercase">{{ $rth->lokasi }}</span> </h4>
 
 
                             {{-- <div class=" row mb-3">
@@ -107,9 +107,7 @@
             "language": {
                 "url": "{{ asset('foxia/assets/libs/datatables.net-bs4/js/dataTables.Indonesian.json') }}"
             },
-            rowReorder: {
-                selector: 'td:nth-child(2)'
-            },
+
             responsive: true
         });
 

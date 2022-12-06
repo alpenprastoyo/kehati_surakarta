@@ -25,7 +25,7 @@
 
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('rth') }}">
-                                <i class="mdi mdi-binoculars"></i>Area Studi
+                                <i class="mdi mdi-binoculars"></i>Titik Lokasi
                             </a>
                         </li>
 

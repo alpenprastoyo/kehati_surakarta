@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-8">
-                    <h6 class="page-title">Area Studi</h6>
+                    <h6 class="page-title">Titik Lokasi</h6>
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@
                     <div class="card">
                         <div class="card-body">
 
-                            <h4 class="card-title">DATA AREA STUDI</h4>
+                            <h4 class="card-title">DATA TITIK LOKASI</h4>
 
 
                             <div class=" row mb-3">
@@ -29,7 +29,7 @@
                                 <div class="col-sm-5">
                                     <select onchange="filter_kecamatan(this);" class="form-select"
                                         aria-label="Default select example">
-                                        <option selected="" value="">Pilih Kecamatan</option>
+                                        <option selected="" value="">Semua Kecamatan</option>
                                         @foreach ($kecamatan as $k)
                                             <option value="{{ $k->kecamatan }}">{{ $k->kecamatan }}</option>
                                         @endforeach
@@ -42,7 +42,7 @@
                                 <div class="col-sm-5">
                                     <select onchange="filter_kelurahan(this);" class="form-select"
                                         aria-label="Default select example">
-                                        <option selected="" value="" >Pilih Kelurahan</option>
+                                        <option selected="" value="" >Semua Kelurahan</option>
                                         @foreach ($kelurahan as $k)
                                             <option value="{{ $k->kelurahan }}">{{ $k->kelurahan }}</option>
                                         @endforeach
@@ -55,7 +55,7 @@
                                 <div class="col-sm-5">
                                     <select onchange="filter_jenis_rth(this);" class="form-select"
                                         aria-label="Default select example">
-                                        <option selected="" value="">Pilih Jenis RTH</option>
+                                        <option selected="" value="">Semua Jenis RTH</option>
                                         @foreach ($jenis as $j)
                                             <option value="{{ $j->jenis }}">{{ $j->jenis }}</option>
                                         @endforeach
