@@ -199,14 +199,14 @@
     <!-- unicons icon -->
     <script src="{{ asset('lezir/js/unicons.js') }}"></script>
     <!-- Main Js -->
-    <script src="{{ asset('lezir/js/app.js') }}"></script>
+    {{-- <script src="{{ asset('lezir/js/app.js') }}"></script> --}}
 
     <script>
-        $('#carouselburung').carousel({
-            touch: false
-        });
-        $('#carouselpohon').carousel({
-            touch: false
-        });
+        // $('#carouselburung').carousel({
+        //     touch: false
+        // });
+        // $('#carouselpohon').carousel({
+        //     touch: false
+        // });
     </script>
 @endsection
