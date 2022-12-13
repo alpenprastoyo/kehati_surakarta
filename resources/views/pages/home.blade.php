@@ -73,95 +73,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="card">
-                        <div class="card-body">
 
-                            <h4 class="card-title">With captions</h4>
-                            <p class="card-title-desc">Add captions to your slides easily with the <code>.carousel-caption</code> element within any <code>.carousel-item</code>.</p>
-
-                            <div id="carouselExampleCaption" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="carousel-item active">
-                                        <img style="max-height: 513px" src="https://kehati.alpenprastoyo.com/img/burung/bondol%20haji.jpg" alt="..." class="img-fluid mx-auto d-block">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h3>First slide label</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img style="max-height: 513px" src="https://kehati.alpenprastoyo.com/img/burung/bondol%20jawa.jpg" alt="..." class="img-fluid mx-auto d-block">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h3>Second slide label</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img style="max-height: 513px" src="{{ asset('foxia/assets/images/small/img-4.jpg') }}" alt="..." class="img-fluid mx-auto d-block">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h3>Third slide label</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleCaption" role="button" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleCaption" role="button" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="card">
-                        <div class="card-body">
-
-                            <h4 class="card-title">With captions</h4>
-                            <p class="card-title-desc">Add captions to your slides easily with the <code>.carousel-caption</code> element within any <code>.carousel-item</code>.</p>
-
-                            <div id="carouselExampleCaption" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="carousel-item active">
-                                        <img src="https://kehati.alpenprastoyo.com/img/burung/bondol%20haji.jpg" alt="..." class="img-fluid mx-auto d-block">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h3>First slide label</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="https://kehati.alpenprastoyo.com/img/burung/bondol%20jawa.jpg" alt="..." class="img-fluid mx-auto d-block">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h3>Second slide label</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="https://kehati.alpenprastoyo.com/img/burung/bondol%20peking.jpg" alt="..." class="img-fluid mx-auto d-block">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h3>Third slide label</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleCaption" role="button" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleCaption" role="button" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- end col -->
-            </div>
 
             <div class="row">
                 <div class="col-lg-6">
@@ -191,12 +103,12 @@
                                     @foreach ($pohon as $i)
                                         @if ($x == 1)
                                             <div class="carousel-item active">
-                                                <img  class="d-block img-fluid" src="{{ asset('/img/pohon/' . $i->image) }}"
+                                                <img style="width:100%;height: 50vh"  class="d-block img-fluid" src="{{ asset('/img/pohon/' . $i->image) }}"
                                                     alt="{{ $x++ }}">
                                             </div>
                                         @else
                                             <div class="carousel-item">
-                                                <img class="d-block img-fluid" src="{{ asset('/img/pohon/' . $i->image) }}"
+                                                <img style="width:100%;height: 50vh" class="d-block img-fluid" src="{{ asset('/img/pohon/' . $i->image) }}"
                                                     alt="{{ $x++ }}">
                                             </div>
                                         @endif
@@ -244,12 +156,12 @@
                                     @foreach ($burung as $i)
                                         @if ($x == 1)
                                             <div class="carousel-item active">
-                                                <img  class="d-block img-fluid" src="{{ asset('/img/burung/' . $i->image) }}"
+                                                <img style="width:100%;height: 50vh"  class="d-block img-fluid" src="{{ asset('/img/burung/' . $i->image) }}"
                                                     alt="{{ $x++ }}">
                                             </div>
                                         @else
                                             <div class="carousel-item">
-                                                <img class="d-block img-fluid" src="{{ asset('/img/burung/' . $i->image) }}"
+                                                <img style="width:100%;height: 50vh" class="d-block img-fluid" src="{{ asset('/img/burung/' . $i->image) }}"
                                                     alt="{{ $x++ }}">
                                             </div>
                                         @endif
