@@ -84,14 +84,14 @@
                             <div id="carouselExampleCaption" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
-                                        <img style="max-height: 513px" src="http://localhost:8000/img/burung/bondol%20haji.jpg" alt="..." class="img-fluid mx-auto d-block">
+                                        <img style="max-height: 513px" src="https://kehati.alpenprastoyo.com/img/burung/bondol%20haji.jpg" alt="..." class="img-fluid mx-auto d-block">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h3>First slide label</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img style="max-height: 513px" src="http://localhost:8000/img/burung/bondol%20jawa.jpg" alt="..." class="img-fluid mx-auto d-block">
+                                        <img style="max-height: 513px" src="https://kehati.alpenprastoyo.com/img/burung/bondol%20jawa.jpg" alt="..." class="img-fluid mx-auto d-block">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h3>Second slide label</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -128,21 +128,21 @@
                             <div id="carouselExampleCaption" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
-                                        <img src="http://localhost:8000/img/burung/bondol%20haji.jpg" alt="..." class="img-fluid mx-auto d-block">
+                                        <img src="https://kehati.alpenprastoyo.com/img/burung/bondol%20haji.jpg" alt="..." class="img-fluid mx-auto d-block">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h3>First slide label</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="http://localhost:8000/img/burung/bondol%20jawa.jpg" alt="..." class="img-fluid mx-auto d-block">
+                                        <img src="https://kehati.alpenprastoyo.com/img/burung/bondol%20jawa.jpg" alt="..." class="img-fluid mx-auto d-block">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h3>Second slide label</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="http://localhost:8000/img/burung/bondol%20peking.jpg" alt="..." class="img-fluid mx-auto d-block">
+                                        <img src="https://kehati.alpenprastoyo.com/img/burung/bondol%20peking.jpg" alt="..." class="img-fluid mx-auto d-block">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h3>Third slide label</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
