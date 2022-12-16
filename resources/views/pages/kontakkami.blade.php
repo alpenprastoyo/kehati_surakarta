@@ -28,31 +28,31 @@
                 		<tbody>
                 			<tr>
                 				<td><i class="fa fa-building-o fa-lg" aria-hidden="true"></i></td>
-                				<td>Dinas Lingkunga Hidup Kota Surakarta</td>
+                				<td>Dinas Lingkungan Hidup Kota Surakarta</td>
                 			</tr>
 
                 			<tr>
-                				<td><i class="fa fa-road fa-lg" aria-hidden="true"></i></td>
+                				<td><i class="mdi mdi-pin" aria-hidden="true"></i></td>
                 				<td>Dinas Lingkungan Hidup Kota Surakarta, Jl. Menteri Supeno no.10 Manahan, Surakarta, Jawa Tengah, Indonesia</td>
                 			</tr>
 
                 			<tr>
-                				<td><i class="fa fa-phone fa-lg" aria-hidden="true"></i></td>
+                				<td><i class="mdi mdi-phone" aria-hidden="true"></i></td>
                 				<td>(0271) 714898</td>
                 			</tr>
 
                 			<tr>
-                				<td><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></td>
+                				<td><i class="mdi mdi-email" aria-hidden="true"></i></td>
                 				<td>dlh@surakarta.go.id</td>
                 			</tr>
 
                 			<tr>
-                				<td><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></td>
+                				<td><i class="mdi mdi-facebook" aria-hidden="true"></i></td>
                 				<td>dlhsurakarta</td>
                 			</tr>
 
                 			<tr>
-                				<td><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></td>
+                				<td><i class="mdi mdi-twitter" aria-hidden="true"></i></td>
                 				<td>dlhsurakarta</td>
                 			</tr>
                 		</tbody>
