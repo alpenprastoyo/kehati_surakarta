@@ -80,7 +80,7 @@
                                             <td>{{ $r->nama_jenis }}</td>
                                             <td><i>{{ $r->spesies }}</i></td>
                                             {{-- <td>{{ $r->jumlah }}</td> --}}
-                                            <td></i>{{ $r->iucn }}</i></td>
+                                            <td><i>{{ $r->iucn }}</i></td>
                                             {{-- <td>{{ $r->image }}</td> --}}
                                             <td>  <a target="_blank" id="detail" href="/burung/{{ $r->nama_jenis }}"> <button type="button"
                                                 class="btn btn-success">Lihat Detail</button></a></td>

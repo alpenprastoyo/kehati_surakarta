@@ -75,7 +75,7 @@
                                             <td>{{ $no++ }}</td>
                                             <td>{{ $r->nama_jenis }}</td>
                                             <td><i>{{ $r->spesies }}</i></td>
-                                            <td></i>{{ $r->iucn }}</i></td>
+                                            <td><i>{{ $r->iucn }}</i></td>
                                             <td>  <a target="_blank" id="detail" href="/pohon/{{ $r->nama_jenis }}"> <button type="button"
                                                 class="btn btn-success">Lihat Detail</button></a></td>
                                         </tr>
