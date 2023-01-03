@@ -186,7 +186,7 @@
                                             </td>
                                             <td>{{ $r->nama_jenis }}</td>
                                             <td><i>{{ $r->spesies }}</i></td>
-                                            <td>{{ $r->iucn }}</td>
+                                            <td></i>{{ $r->iucn }}</i></td>
                                             <td>{{ $r->keterangan }}</td>
                                             <td>{{ $r->tinggi }}</td>
                                             <td>{{ $r->keliling }}</td>
@@ -242,7 +242,7 @@
                                             <td>{{ $r->nama_jenis }}</td>
                                             <td><i>{{ $r->spesies }}</i></td>
                                             <td>{{ $r->jumlah }}</td>
-                                            <td>{{ $r->iucn }}</td>
+                                            <td></i>{{ $r->iucn }}</i></td>
 
                                         </tr>
                                     @endforeach
