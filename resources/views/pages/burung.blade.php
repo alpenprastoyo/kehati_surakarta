@@ -78,7 +78,7 @@
                                             <td>{{ $no++ }}</td>
                                             {{-- <td>{{ $r->nama_rth }}</td> --}}
                                             <td>{{ $r->nama_jenis }}</td>
-                                            <td>{{ $r->spesies }}</td>
+                                            <td><i>{{ $r->spesies }}</i></td>
                                             {{-- <td>{{ $r->jumlah }}</td> --}}
                                             <td>{{ $r->iucn }}</td>
                                             {{-- <td>{{ $r->image }}</td> --}}

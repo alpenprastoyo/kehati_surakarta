@@ -179,13 +179,13 @@
                                             <td>
                                                 <div class="zoom-gallery">
                                                     <a class="pull-left" href="/img/pohon/{{ $r->image }}"
-                                                        title="{{ $r->nama_jenis }} - {{ $r->spesies }} "><img
+                                                        title="{{ $r->nama_jenis }} - <i>{{ $r->spesies }}</i> "><img
                                                             class="img-thumbnail" src="/img/pohon/{{ $r->image }}"
                                                             alt="" width="275"></a>
                                                 </div>
                                             </td>
                                             <td>{{ $r->nama_jenis }}</td>
-                                            <td>{{ $r->spesies }}</td>
+                                            <td><i>{{ $r->spesies }}</i></td>
                                             <td>{{ $r->iucn }}</td>
                                             <td>{{ $r->keterangan }}</td>
                                             <td>{{ $r->tinggi }}</td>
@@ -234,13 +234,13 @@
                                             <td>
                                                 <div class="zoom-gallery">
                                                     <a class="pull-left" href="/img/burung/{{ $r->image }}"
-                                                        title="{{ $r->nama_jenis }} - {{ $r->spesies }} "><img
+                                                        title="{{ $r->nama_jenis }} - <i>{{ $r->spesies }}</i> "><img
                                                             class="img-thumbnail" src="/img/burung/{{ $r->image }}"
                                                             alt="" width="275"></a>
                                                 </div>
                                             </td>
                                             <td>{{ $r->nama_jenis }}</td>
-                                            <td>{{ $r->spesies }}</td>
+                                            <td><i>{{ $r->spesies }}</i></td>
                                             <td>{{ $r->jumlah }}</td>
                                             <td>{{ $r->iucn }}</td>
 

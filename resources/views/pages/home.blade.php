@@ -130,7 +130,56 @@
                 </div> <!-- end col -->
 
                 <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">
+                            GALERI BURUNG
+                        </div>
 
+                        <div class="card-body">
+
+
+                            <div id="carouselburung" class="carousel slide" data-bs-ride="carousel">
+                                <ol class="carousel-indicators slider">
+                                    @php $x = 0 @endphp
+                                    @foreach ($burung as $i)
+                                        @if ($x == 0)
+                                            <li data-bs-target="#carouselburung"
+                                                data-bs-slide-to="{{ $x++ }}" class="active"></li>
+                                        @else
+                                            <li data-bs-target="#carouselburung"
+                                                data-bs-slide-to="{{ $x++ }}"></li>
+                                        @endif
+                                    @endforeach
+                                </ol>
+                                <div class="carousel-inner galery" role="listbox">
+                                    @php $x = 1 @endphp
+                                    @foreach ($burung as $i)
+                                        @if ($x == 1)
+                                            <div class="carousel-item active">
+                                                <img style="width:100%;height: 50vh"  class="d-block img-fluid" src="{{ asset('/img/burung/' . $i->image) }}"
+                                                    alt="{{ $x++ }}">
+                                            </div>
+                                        @else
+                                            <div class="carousel-item">
+                                                <img style="width:100%;height: 50vh" class="d-block img-fluid" src="{{ asset('/img/burung/' . $i->image) }}"
+                                                    alt="{{ $x++ }}">
+                                            </div>
+                                        @endif
+                                    @endforeach
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselburung" role="button"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselburung" role="button"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div> <!-- end col -->
 
             </div>
